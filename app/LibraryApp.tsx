@@ -1,4 +1,6 @@
 "use client";
+
+/* eslint-disable react/no-unknown-property -- React supports defaultOpen on the native details element; the rule's DOM property table is behind the runtime. */
 /* eslint-disable @next/next/no-html-link-for-pages -- Vinext dynamic routes require document navigation here. */
 
 import { useEffect, useMemo, useRef, useState } from "react";

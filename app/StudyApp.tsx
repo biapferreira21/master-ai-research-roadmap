@@ -1,5 +1,7 @@
 "use client";
 
+/* eslint-disable react-hooks/set-state-in-effect, @next/next/no-html-link-for-pages, jsx-a11y/label-has-associated-control -- Vinext hydrates browser-only study state after mount, uses document navigation for route transitions, and nests the notes control inside its visible label. */
+
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { Course, Lesson, Resource, ScheduleEntry } from "./course-data";
 import { courses, totalLessons } from "./course-data";
