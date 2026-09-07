@@ -1,0 +1,814 @@
+{
+  "lessonEntries": [
+    [
+      {
+        "date": "Mon Sep 22, 2025",
+        "description": "Course Overview",
+        "lectureMaterials": [
+          {
+            "label": "Course overview and logistics",
+            "url": "https://cs329a.stanford.edu/index.html#intro",
+            "kind": "course"
+          },
+          {
+            "label": "Complete Autumn 2025 schedule",
+            "url": "https://cs329a.stanford.edu/index.html#schedule",
+            "kind": "course"
+          }
+        ],
+        "readings": [],
+        "courseMaterialNote": "",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Fri Sep 26, 2025",
+        "description": "Test-time Compute Scaling",
+        "lectureMaterials": [],
+        "readings": [
+          {
+            "label": "Large Language Monkeys: Scaling Inference Compute with Repeated Sampling (Brown et al. 2024)",
+            "url": "https://arxiv.org/abs/2407.21787",
+            "kind": "reading"
+          },
+          {
+            "label": "Archon: An Architecture Search Framework for Inference-Time Techniques (Saad-Falcon et al. 2024)",
+            "url": "https://www.arxiv.org/abs/2409.15254",
+            "kind": "reading"
+          },
+          {
+            "label": "Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters (Snell et al. 2024)",
+            "url": "https://arxiv.org/abs/2408.03314",
+            "kind": "reading"
+          },
+          {
+            "label": "How Do Large Language Monkeys Get Their Power (Laws)?",
+            "url": "https://arxiv.org/abs/2502.17578",
+            "kind": "reading"
+          }
+        ],
+        "courseMaterialNote": "Large Language Monkeys: Scaling Inference Compute with Repeated Sampling (Brown et al. 2024) Archon: An Architecture Search Framework for Inference-Time Techniques (Saad-Falcon et al. 2024) Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters (Snell et al. 2024) How Do Large Language Monkeys Get Their Power (Laws)?",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Mon Sep 29, 2025",
+        "description": "Robust Verification",
+        "lectureMaterials": [],
+        "readings": [
+          {
+            "label": "Shrinking the Generation-Verification Gap with Weak Verifiers",
+            "url": "https://arxiv.org/abs/2506.18203",
+            "kind": "reading"
+          },
+          {
+            "label": "Training Verifiers to Solve Math Word Problems (Cobbe et al. 2021)",
+            "url": "https://arxiv.org/abs/2110.14168",
+            "kind": "reading"
+          },
+          {
+            "label": "Let's Verify step by step (Lightman et al. 2023)",
+            "url": "https://arxiv.org/abs/2305.20050",
+            "kind": "reading"
+          },
+          {
+            "label": "Math-Shepherd: Verify and Reinforce LLMs Step-by-step without Human Annotations (Wang et al. 2023)",
+            "url": "https://arxiv.org/abs/2312.08935",
+            "kind": "reading"
+          }
+        ],
+        "courseMaterialNote": "Shrinking the Generation-Verification Gap with Weak Verifiers Training Verifiers to Solve Math Word Problems (Cobbe et al. 2021) Let's Verify step by step (Lightman et al. 2023) Math-Shepherd: Verify and Reinforce LLMs Step-by-step without Human Annotations (Wang et al. 2023)",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Fri Oct 3, 2025",
+        "description": "Learning from feedback with tools/code",
+        "lectureMaterials": [],
+        "readings": [
+          {
+            "label": "ReAct: Synergizing Reasoning and Acting in Language Models (Yao et al. 2022)",
+            "url": "https://arxiv.org/abs/2210.03629",
+            "kind": "reading"
+          },
+          {
+            "label": "RLEF: Grounding Code LLMs in Execution Feedback with Reinforcement Learning",
+            "url": "https://arxiv.org/abs/2410.02089",
+            "kind": "reading"
+          },
+          {
+            "label": "Constitutional AI: Harmlessness from AI Feedback",
+            "url": "https://arxiv.org/abs/2212.08073",
+            "kind": "reading"
+          }
+        ],
+        "courseMaterialNote": "ReAct: Synergizing Reasoning and Acting in Language Models (Yao et al. 2022) RLEF: Grounding Code LLMs in Execution Feedback with Reinforcement Learning Constitutional AI: Harmlessness from AI Feedback",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "Homework 1 out (due Oct 13)",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Mon Oct 6, 2025",
+        "description": "Multi-step Reasoning/Planning",
+        "lectureMaterials": [],
+        "readings": [
+          {
+            "label": "SWiRL: Synthetic Data Generation & Multi-Step RL for Reasoning & Tool Use",
+            "url": "https://arxiv.org/abs/2504.04736",
+            "kind": "reading"
+          },
+          {
+            "label": "Language Agent Tree Search Unifies Reasoning Acting and Planning in Language Models (Zhou et al. 2023)",
+            "url": "https://arxiv.org/abs/2310.04406",
+            "kind": "reading"
+          },
+          {
+            "label": "SPRINT: Enabling Interleaved Planning and Parallelized Execution in Reasoning Models",
+            "url": "https://arxiv.org/abs/2506.05745",
+            "kind": "reading"
+          },
+          {
+            "label": "ADaPT: As-Needed Decomposition and Planning with Language Models (Prasad et al. 2024)",
+            "url": "https://arxiv.org/abs/2311.05772",
+            "kind": "reading"
+          },
+          {
+            "label": "Wider or Deeper? Scaling LLM Inference-Time Compute with Adaptive Branching Tree Search",
+            "url": "https://arxiv.org/abs/2503.04412",
+            "kind": "reading"
+          }
+        ],
+        "courseMaterialNote": "SWiRL: Synthetic Data Generation & Multi-Step RL for Reasoning & Tool Use Language Agent Tree Search Unifies Reasoning Acting and Planning in Language Models (Zhou et al. 2023) SPRINT: Enabling Interleaved Planning and Parallelized Execution in Reasoning Models ADaPT: As-Needed Decomposition and Planning with Language Models (Prasad et al. 2024) Wider or Deeper? Scaling LLM Inference-Time Compute with Adaptive Branching Tree Search",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Fri Oct 10, 2025",
+        "description": "Train Time Scaling/Scaling RL",
+        "lectureMaterials": [],
+        "readings": [
+          {
+            "label": "STaR: Bootstrapping Reasoning With Reasoning (Zelikman et al. 2022)",
+            "url": "https://arxiv.org/pdf/2203.14465",
+            "kind": "reading"
+          },
+          {
+            "label": "DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models",
+            "url": "https://arxiv.org/abs/2402.03300",
+            "kind": "reading"
+          },
+          {
+            "label": "DAPO: An Open-Source LLM Reinforcement Learning System at Scale",
+            "url": "https://arxiv.org/abs/2503.14476",
+            "kind": "reading"
+          }
+        ],
+        "courseMaterialNote": "STaR: Bootstrapping Reasoning With Reasoning (Zelikman et al. 2022) DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models DAPO: An Open-Source LLM Reinforcement Learning System at Scale",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "Project Proposal due",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Mon Oct 13, 2025",
+        "description": "Open-Ended Evolution of Self-Improving Agents",
+        "lectureMaterials": [],
+        "readings": [
+          {
+            "label": "Automated design of agentic systems",
+            "url": "https://arxiv.org/pdf/2505.22954",
+            "kind": "reading"
+          },
+          {
+            "label": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery (Lu et al. 2024)",
+            "url": "https://arxiv.org/abs/2408.06292",
+            "kind": "reading"
+          },
+          {
+            "label": "AlphaEvolve: A Gemini-powered coding agent for designing advanced algorithms",
+            "url": "https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/AlphaEvolve.pdf",
+            "kind": "reading"
+          }
+        ],
+        "courseMaterialNote": "Automated design of agentic systems The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery (Lu et al. 2024) AlphaEvolve: A Gemini-powered coding agent for designing advanced algorithms",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "Homework 2 out on Oct 14 (due Oct 22)",
+        "deadlineResources": []
+      },
+      {
+        "date": "Fri Oct 17, 2025",
+        "description": "Self improvement with Search & Deep Research Agents",
+        "lectureMaterials": [],
+        "readings": [
+          {
+            "label": "Competition-Level Code Generation with AlphaCode",
+            "url": "https://arxiv.org/pdf/2203.07814",
+            "kind": "reading"
+          },
+          {
+            "label": "AlphaCode 2 Technical Report",
+            "url": "https://storage.googleapis.com/deepmind-media/AlphaCode2/AlphaCode2_Tech_Report.pdf",
+            "kind": "reading"
+          },
+          {
+            "label": "Search-o1: Agentic Search-Enhanced Large Reasoning Models",
+            "url": "https://arxiv.org/pdf/2501.05366",
+            "kind": "reading"
+          }
+        ],
+        "courseMaterialNote": "Competition-Level Code Generation with AlphaCode AlphaCode 2 Technical Report Search-o1: Agentic Search-Enhanced Large Reasoning Models",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Mon Nov 17, 2025",
+        "description": "Agentic Evaluations & Long-Horizon Tasks",
+        "lectureMaterials": [],
+        "readings": [
+          {
+            "label": "Measuring AI Ability to Complete Long Tasks",
+            "url": "https://arxiv.org/abs/2503.14499",
+            "kind": "reading"
+          },
+          {
+            "label": "GDPVal: Evaluating AI Model Performance on Real-World Economically Valuable Tasks",
+            "url": "https://arxiv.org/abs/2510.04374",
+            "kind": "reading"
+          },
+          {
+            "label": "DeepScholar-Bench: A Live Benchmark and Automated Evaluation for Generative Research Synthesis",
+            "url": "https://arxiv.org/abs/2508.20033",
+            "kind": "reading"
+          }
+        ],
+        "courseMaterialNote": "Measuring AI Ability to Complete Long Tasks GDPVal: Evaluating AI Model Performance on Real-World Economically Valuable Tasks DeepScholar-Bench: A Live Benchmark and Automated Evaluation for Generative Research Synthesis",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Fri Dec 5, 2025",
+        "description": "Future Research Areas",
+        "lectureMaterials": [
+          {
+            "label": "Complete course syllabus",
+            "url": "https://cs329a.stanford.edu/index.html",
+            "kind": "course"
+          },
+          {
+            "label": "Past CS329A research projects",
+            "url": "https://cs329a.stanford.edu/pastprojects.html",
+            "kind": "project"
+          }
+        ],
+        "readings": [],
+        "courseMaterialNote": "",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "",
+        "deadlineResources": []
+      }
+    ]
+  ],
+  "lessonStudyMaterials": [
+    [],
+    [
+      {
+        "type": "pdf",
+        "label": "Large Language Monkeys: Scaling Inference Compute with Repeated Sampling (Brown et al. 2024)",
+        "url": "https://arxiv.org/pdf/2407.21787.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2407.21787",
+        "sourceLabel": "Open original paper ↗",
+        "description": "An official paper reading assigned to this CS329A class.",
+        "group": "Reading papers · Test-time Compute Scaling"
+      },
+      {
+        "type": "pdf",
+        "label": "Archon: An Architecture Search Framework for Inference-Time Techniques (Saad-Falcon et al. 2024)",
+        "url": "https://arxiv.org/pdf/2409.15254.pdf",
+        "sourceUrl": "https://www.arxiv.org/abs/2409.15254",
+        "sourceLabel": "Open original paper ↗",
+        "description": "An official paper reading assigned to this CS329A class.",
+        "group": "Reading papers · Test-time Compute Scaling"
+      },
+      {
+        "type": "pdf",
+        "label": "Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters (Snell et al. 2024)",
+        "url": "https://arxiv.org/pdf/2408.03314.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2408.03314",
+        "sourceLabel": "Open original paper ↗",
+        "description": "An official paper reading assigned to this CS329A class.",
+        "group": "Reading papers · Test-time Compute Scaling"
+      },
+      {
+        "type": "pdf",
+        "label": "How Do Large Language Monkeys Get Their Power (Laws)?",
+        "url": "https://arxiv.org/pdf/2502.17578.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2502.17578",
+        "sourceLabel": "Open original paper ↗",
+        "description": "An official paper reading assigned to this CS329A class.",
+        "group": "Reading papers · Test-time Compute Scaling"
+      }
+    ],
+    [
+      {
+        "type": "pdf",
+        "label": "Shrinking the Generation-Verification Gap with Weak Verifiers",
+        "url": "https://arxiv.org/pdf/2506.18203.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2506.18203",
+        "sourceLabel": "Open original paper ↗",
+        "description": "An official paper reading assigned to this CS329A class.",
+        "group": "Reading papers · Robust Verification"
+      },
+      {
+        "type": "pdf",
+        "label": "Training Verifiers to Solve Math Word Problems (Cobbe et al. 2021)",
+        "url": "https://arxiv.org/pdf/2110.14168.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2110.14168",
+        "sourceLabel": "Open original paper ↗",
+        "description": "An official paper reading assigned to this CS329A class.",
+        "group": "Reading papers · Robust Verification"
+      },
+      {
+        "type": "pdf",
+        "label": "Let's Verify step by step (Lightman et al. 2023)",
+        "url": "https://arxiv.org/pdf/2305.20050.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2305.20050",
+        "sourceLabel": "Open original paper ↗",
+        "description": "An official paper reading assigned to this CS329A class.",
+        "group": "Reading papers · Robust Verification"
+      },
+      {
+        "type": "pdf",
+        "label": "Math-Shepherd: Verify and Reinforce LLMs Step-by-step without Human Annotations (Wang et al. 2023)",
+        "url": "https://arxiv.org/pdf/2312.08935.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2312.08935",
+        "sourceLabel": "Open original paper ↗",
+        "description": "An official paper reading assigned to this CS329A class.",
+        "group": "Reading papers · Robust Verification"
+      }
+    ],
+    [
+      {
+        "type": "pdf",
+        "label": "ReAct: Synergizing Reasoning and Acting in Language Models (Yao et al. 2022)",
+        "url": "https://arxiv.org/pdf/2210.03629.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2210.03629",
+        "sourceLabel": "Open original paper ↗",
+        "description": "An official paper reading assigned to this CS329A class.",
+        "group": "Reading papers · Learning from feedback with tools/code"
+      },
+      {
+        "type": "pdf",
+        "label": "RLEF: Grounding Code LLMs in Execution Feedback with Reinforcement Learning",
+        "url": "https://arxiv.org/pdf/2410.02089.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2410.02089",
+        "sourceLabel": "Open original paper ↗",
+        "description": "An official paper reading assigned to this CS329A class.",
+        "group": "Reading papers · Learning from feedback with tools/code"
+      },
+      {
+        "type": "pdf",
+        "label": "Constitutional AI: Harmlessness from AI Feedback",
+        "url": "https://arxiv.org/pdf/2212.08073.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2212.08073",
+        "sourceLabel": "Open original paper ↗",
+        "description": "An official paper reading assigned to this CS329A class.",
+        "group": "Reading papers · Learning from feedback with tools/code"
+      }
+    ],
+    [
+      {
+        "type": "pdf",
+        "label": "SWiRL: Synthetic Data Generation & Multi-Step RL for Reasoning & Tool Use",
+        "url": "https://arxiv.org/pdf/2504.04736.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2504.04736",
+        "sourceLabel": "Open original paper ↗",
+        "description": "An official paper reading assigned to this CS329A class.",
+        "group": "Reading papers · Multi-step Reasoning/Planning"
+      },
+      {
+        "type": "pdf",
+        "label": "Language Agent Tree Search Unifies Reasoning Acting and Planning in Language Models (Zhou et al. 2023)",
+        "url": "https://arxiv.org/pdf/2310.04406.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2310.04406",
+        "sourceLabel": "Open original paper ↗",
+        "description": "An official paper reading assigned to this CS329A class.",
+        "group": "Reading papers · Multi-step Reasoning/Planning"
+      },
+      {
+        "type": "pdf",
+        "label": "SPRINT: Enabling Interleaved Planning and Parallelized Execution in Reasoning Models",
+        "url": "https://arxiv.org/pdf/2506.05745.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2506.05745",
+        "sourceLabel": "Open original paper ↗",
+        "description": "An official paper reading assigned to this CS329A class.",
+        "group": "Reading papers · Multi-step Reasoning/Planning"
+      },
+      {
+        "type": "pdf",
+        "label": "ADaPT: As-Needed Decomposition and Planning with Language Models (Prasad et al. 2024)",
+        "url": "https://arxiv.org/pdf/2311.05772.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2311.05772",
+        "sourceLabel": "Open original paper ↗",
+        "description": "An official paper reading assigned to this CS329A class.",
+        "group": "Reading papers · Multi-step Reasoning/Planning"
+      },
+      {
+        "type": "pdf",
+        "label": "Wider or Deeper? Scaling LLM Inference-Time Compute with Adaptive Branching Tree Search",
+        "url": "https://arxiv.org/pdf/2503.04412.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2503.04412",
+        "sourceLabel": "Open original paper ↗",
+        "description": "An official paper reading assigned to this CS329A class.",
+        "group": "Reading papers · Multi-step Reasoning/Planning"
+      }
+    ],
+    [
+      {
+        "type": "pdf",
+        "label": "STaR: Bootstrapping Reasoning With Reasoning (Zelikman et al. 2022)",
+        "url": "https://arxiv.org/pdf/2203.14465.pdf",
+        "sourceUrl": "https://arxiv.org/pdf/2203.14465",
+        "sourceLabel": "Open original paper ↗",
+        "description": "An official paper reading assigned to this CS329A class.",
+        "group": "Reading papers · Train Time Scaling/Scaling RL"
+      },
+      {
+        "type": "pdf",
+        "label": "DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models",
+        "url": "https://arxiv.org/pdf/2402.03300.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2402.03300",
+        "sourceLabel": "Open original paper ↗",
+        "description": "An official paper reading assigned to this CS329A class.",
+        "group": "Reading papers · Train Time Scaling/Scaling RL"
+      },
+      {
+        "type": "pdf",
+        "label": "DAPO: An Open-Source LLM Reinforcement Learning System at Scale",
+        "url": "https://arxiv.org/pdf/2503.14476.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2503.14476",
+        "sourceLabel": "Open original paper ↗",
+        "description": "An official paper reading assigned to this CS329A class.",
+        "group": "Reading papers · Train Time Scaling/Scaling RL"
+      }
+    ],
+    [
+      {
+        "type": "pdf",
+        "label": "Automated design of agentic systems",
+        "url": "https://arxiv.org/pdf/2505.22954.pdf",
+        "sourceUrl": "https://arxiv.org/pdf/2505.22954",
+        "sourceLabel": "Open original paper ↗",
+        "description": "An official paper reading assigned to this CS329A class.",
+        "group": "Reading papers · Open-Ended Evolution of Self-Improving Agents"
+      },
+      {
+        "type": "pdf",
+        "label": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery (Lu et al. 2024)",
+        "url": "https://arxiv.org/pdf/2408.06292.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2408.06292",
+        "sourceLabel": "Open original paper ↗",
+        "description": "An official paper reading assigned to this CS329A class.",
+        "group": "Reading papers · Open-Ended Evolution of Self-Improving Agents"
+      },
+      {
+        "type": "pdf",
+        "label": "AlphaEvolve: A Gemini-powered coding agent for designing advanced algorithms",
+        "url": "https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/AlphaEvolve.pdf",
+        "sourceUrl": "https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/AlphaEvolve.pdf",
+        "sourceLabel": "Open original paper ↗",
+        "description": "An official paper reading assigned to this CS329A class.",
+        "group": "Reading papers · Open-Ended Evolution of Self-Improving Agents"
+      },
+      {
+        "type": "pdf",
+        "label": "Competition-Level Code Generation with AlphaCode",
+        "url": "https://arxiv.org/pdf/2203.07814.pdf",
+        "sourceUrl": "https://arxiv.org/pdf/2203.07814",
+        "sourceLabel": "Open original paper ↗",
+        "description": "An official paper reading assigned to this CS329A class.",
+        "group": "Reading papers · Self improvement with Search & Deep Research Agents"
+      },
+      {
+        "type": "pdf",
+        "label": "AlphaCode 2 Technical Report",
+        "url": "https://storage.googleapis.com/deepmind-media/AlphaCode2/AlphaCode2_Tech_Report.pdf",
+        "sourceUrl": "https://storage.googleapis.com/deepmind-media/AlphaCode2/AlphaCode2_Tech_Report.pdf",
+        "sourceLabel": "Open original paper ↗",
+        "description": "An official paper reading assigned to this CS329A class.",
+        "group": "Reading papers · Self improvement with Search & Deep Research Agents"
+      },
+      {
+        "type": "pdf",
+        "label": "Search-o1: Agentic Search-Enhanced Large Reasoning Models",
+        "url": "https://arxiv.org/pdf/2501.05366.pdf",
+        "sourceUrl": "https://arxiv.org/pdf/2501.05366",
+        "sourceLabel": "Open original paper ↗",
+        "description": "An official paper reading assigned to this CS329A class.",
+        "group": "Reading papers · Self improvement with Search & Deep Research Agents"
+      },
+      {
+        "type": "pdf",
+        "label": "CodeMonkeys: Scaling Test-Time Compute for Software Engineering",
+        "url": "https://arxiv.org/pdf/2501.14723.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2501.14723",
+        "sourceLabel": "Open original paper ↗",
+        "description": "An official paper reading assigned to this CS329A class.",
+        "group": "Reading papers · Agentic Frameworks for Software Engineering"
+      },
+      {
+        "type": "pdf",
+        "label": "KernelBench: Can LLMs Write Efficient GPU Kernels?",
+        "url": "https://arxiv.org/pdf/2502.10517.pdf",
+        "sourceUrl": "https://arxiv.org/pdf/2502.10517",
+        "sourceLabel": "Open original paper ↗",
+        "description": "An official paper reading assigned to this CS329A class.",
+        "group": "Reading papers · Agentic Frameworks for Software Engineering"
+      },
+      {
+        "type": "pdf",
+        "label": "Improving Parallel Program Performance with LLM Optimizers via Agent-System Interfaces",
+        "url": "https://arxiv.org/pdf/2410.15625.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2410.15625",
+        "sourceLabel": "Open original paper ↗",
+        "description": "An official paper reading assigned to this CS329A class.",
+        "group": "Reading papers · Agentic Frameworks for Software Engineering"
+      },
+      {
+        "type": "pdf",
+        "label": "Cartridges: Lightweight and general-purpose long context representations via self-study",
+        "url": "https://arxiv.org/pdf/2506.06266.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2506.06266",
+        "sourceLabel": "Open original paper ↗",
+        "description": "An official paper reading assigned to this CS329A class.",
+        "group": "Reading papers · Augmenting Agents with Memory Guest Lecturer: Junchen Jiang (LMCache, UChicago)"
+      },
+      {
+        "type": "pdf",
+        "label": "MemGPT: Towards LLMs as Operating Systems (Packer et al, 2023)",
+        "url": "https://arxiv.org/pdf/2310.08560.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2310.08560",
+        "sourceLabel": "Open original paper ↗",
+        "description": "An official paper reading assigned to this CS329A class.",
+        "group": "Reading papers · Augmenting Agents with Memory Guest Lecturer: Junchen Jiang (LMCache, UChicago)"
+      },
+      {
+        "type": "pdf",
+        "label": "CacheBlend: Fast Large Language Model Serving for RAG with Cached Knowledge Fusion",
+        "url": "https://arxiv.org/pdf/2405.16444.pdf",
+        "sourceUrl": "http://arxiv.org/abs/2405.16444",
+        "sourceLabel": "Open original paper ↗",
+        "description": "An official paper reading assigned to this CS329A class.",
+        "group": "Reading papers · Augmenting Agents with Memory Guest Lecturer: Junchen Jiang (LMCache, UChicago)"
+      }
+    ],
+    [
+      {
+        "type": "pdf",
+        "label": "Measuring AI Ability to Complete Long Tasks",
+        "url": "https://arxiv.org/pdf/2503.14499.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2503.14499",
+        "sourceLabel": "Open original paper ↗",
+        "description": "An official paper reading assigned to this CS329A class.",
+        "group": "Reading papers · Agentic Evaluations & Long-Horizon Tasks"
+      },
+      {
+        "type": "pdf",
+        "label": "GDPVal: Evaluating AI Model Performance on Real-World Economically Valuable Tasks",
+        "url": "https://arxiv.org/pdf/2510.04374.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2510.04374",
+        "sourceLabel": "Open original paper ↗",
+        "description": "An official paper reading assigned to this CS329A class.",
+        "group": "Reading papers · Agentic Evaluations & Long-Horizon Tasks"
+      },
+      {
+        "type": "pdf",
+        "label": "DeepScholar-Bench: A Live Benchmark and Automated Evaluation for Generative Research Synthesis",
+        "url": "https://arxiv.org/pdf/2508.20033.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2508.20033",
+        "sourceLabel": "Open original paper ↗",
+        "description": "An official paper reading assigned to this CS329A class.",
+        "group": "Reading papers · Agentic Evaluations & Long-Horizon Tasks"
+      }
+    ],
+    []
+  ],
+  "courseExtras": [
+    {
+      "date": "Mon Oct 20, 2025",
+      "description": "Guest Lecture Melvin Johnson (Google DeepMind)",
+      "lectureMaterials": [],
+      "readings": [],
+      "courseMaterialNote": "",
+      "eventText": "Evolution of Post-training from Chatbots to Agents",
+      "eventResources": [],
+      "deadline": "",
+      "deadlineResources": []
+    },
+    {
+      "date": "Fri Oct 24, 2025",
+      "description": "Mid term presentations",
+      "lectureMaterials": [],
+      "readings": [],
+      "courseMaterialNote": "",
+      "eventText": "",
+      "eventResources": [],
+      "deadline": "Homework 3 out (due Nov 7)",
+      "deadlineResources": []
+    },
+    {
+      "date": "Mon Oct 27, 2025",
+      "description": "Mid term presentations",
+      "lectureMaterials": [],
+      "readings": [],
+      "courseMaterialNote": "",
+      "eventText": "",
+      "eventResources": [],
+      "deadline": "",
+      "deadlineResources": []
+    },
+    {
+      "date": "Fri Oct 31, 2025",
+      "description": "Mid term presentations",
+      "lectureMaterials": [],
+      "readings": [],
+      "courseMaterialNote": "",
+      "eventText": "",
+      "eventResources": [],
+      "deadline": "",
+      "deadlineResources": []
+    },
+    {
+      "date": "Mon Nov 3, 2025",
+      "description": "Agentic Frameworks for Software Engineering",
+      "lectureMaterials": [],
+      "readings": [
+        {
+          "label": "CodeMonkeys: Scaling Test-Time Compute for Software Engineering",
+          "url": "https://arxiv.org/abs/2501.14723",
+          "kind": "reading"
+        },
+        {
+          "label": "KernelBench: Can LLMs Write Efficient GPU Kernels?",
+          "url": "https://arxiv.org/pdf/2502.10517",
+          "kind": "reading"
+        },
+        {
+          "label": "Improving Parallel Program Performance with LLM Optimizers via Agent-System Interfaces",
+          "url": "https://arxiv.org/abs/2410.15625",
+          "kind": "reading"
+        }
+      ],
+      "courseMaterialNote": "CodeMonkeys: Scaling Test-Time Compute for Software Engineering KernelBench: Can LLMs Write Efficient GPU Kernels? Improving Parallel Program Performance with LLM Optimizers via Agent-System Interfaces",
+      "eventText": "",
+      "eventResources": [],
+      "deadline": "",
+      "deadlineResources": []
+    },
+    {
+      "date": "Fri Nov 7, 2025",
+      "description": "Augmenting Agents with Memory Guest Lecturer: Junchen Jiang (LMCache, UChicago)",
+      "lectureMaterials": [],
+      "readings": [
+        {
+          "label": "Cartridges: Lightweight and general-purpose long context representations via self-study",
+          "url": "https://arxiv.org/abs/2506.06266",
+          "kind": "reading"
+        },
+        {
+          "label": "MemGPT: Towards LLMs as Operating Systems (Packer et al, 2023)",
+          "url": "https://arxiv.org/abs/2310.08560",
+          "kind": "reading"
+        },
+        {
+          "label": "CacheBlend: Fast Large Language Model Serving for RAG with Cached Knowledge Fusion",
+          "url": "http://arxiv.org/abs/2405.16444",
+          "kind": "reading"
+        }
+      ],
+      "courseMaterialNote": "Cartridges: Lightweight and general-purpose long context representations via self-study MemGPT: Towards LLMs as Operating Systems (Packer et al, 2023) CacheBlend: Fast Large Language Model Serving for RAG with Cached Knowledge Fusion",
+      "eventText": "",
+      "eventResources": [],
+      "deadline": "",
+      "deadlineResources": []
+    },
+    {
+      "date": "Mon Nov 10, 2025",
+      "description": "Guest Lecture Denny Zhou, Google DeepMind",
+      "lectureMaterials": [],
+      "readings": [],
+      "courseMaterialNote": "",
+      "eventText": "LLM Reasoning",
+      "eventResources": [],
+      "deadline": "",
+      "deadlineResources": []
+    },
+    {
+      "date": "Fri Nov 14, 2025",
+      "description": "Guest Lecture Thang Luong, Google DeepMind",
+      "lectureMaterials": [],
+      "readings": [],
+      "courseMaterialNote": "",
+      "eventText": "Towards AI Superhuman Reasoning: AlphaProof, AlphaGeometry & Gemini IMO Gold Medal",
+      "eventResources": [],
+      "deadline": "",
+      "deadlineResources": []
+    },
+    {
+      "date": "Fri Nov 21, 2025",
+      "description": "Guest Lecture Misha Laskin (Reflection AI)",
+      "lectureMaterials": [],
+      "readings": [],
+      "courseMaterialNote": "",
+      "eventText": "Building Agentic Systems for Autonomy: Lessons & Open questions",
+      "eventResources": [],
+      "deadline": "",
+      "deadlineResources": []
+    },
+    {
+      "date": "Mon Nov 24, 2025",
+      "description": "Holiday",
+      "lectureMaterials": [],
+      "readings": [],
+      "courseMaterialNote": "",
+      "eventText": "",
+      "eventResources": [],
+      "deadline": "",
+      "deadlineResources": []
+    },
+    {
+      "date": "Fri Nov 28, 2025",
+      "description": "Holiday",
+      "lectureMaterials": [],
+      "readings": [],
+      "courseMaterialNote": "",
+      "eventText": "",
+      "eventResources": [],
+      "deadline": "",
+      "deadlineResources": []
+    },
+    {
+      "date": "Mon Dec 1, 2025",
+      "description": "Guest Lecture Danny Driess (Physical Intelligence)",
+      "lectureMaterials": [],
+      "readings": [],
+      "courseMaterialNote": "",
+      "eventText": "Multimodal AI Agents in Robotics",
+      "eventResources": [],
+      "deadline": "",
+      "deadlineResources": []
+    },
+    {
+      "date": "Wed Dec 10, 2025",
+      "description": "Final Project Due",
+      "lectureMaterials": [],
+      "readings": [],
+      "courseMaterialNote": "",
+      "eventText": "",
+      "eventResources": [],
+      "deadline": "Final project due (EoD)",
+      "deadlineResources": []
+    },
+    {
+      "date": "Fri Dec 12, 2025",
+      "description": "Final Project Poster Presentation",
+      "lectureMaterials": [],
+      "readings": [],
+      "courseMaterialNote": "",
+      "eventText": "",
+      "eventResources": [],
+      "deadline": "",
+      "deadlineResources": []
+    }
+  ]
+}

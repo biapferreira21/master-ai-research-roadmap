@@ -1,0 +1,974 @@
+{
+  "lessonEntries": [
+    [
+      {
+        "date": "Wed, April 1, 2026",
+        "description": "Lecture Course Intro + Start of MDPs & Imitation",
+        "lectureMaterials": [
+          {
+            "label": "Lecture slides · Course Intro + Start of MDPs & Imitation",
+            "url": "https://cs224r.stanford.edu/slides/01_cs224r_intro_2026.pdf",
+            "kind": "slides"
+          }
+        ],
+        "readings": [],
+        "courseMaterialNote": "",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Fri, April 3, 2026",
+        "description": "Lecture Imitation Learning",
+        "lectureMaterials": [
+          {
+            "label": "Lecture slides · Imitation Learning",
+            "url": "https://cs224r.stanford.edu/slides/02_cs224r_imitation_2026.pdf",
+            "kind": "slides"
+          }
+        ],
+        "readings": [
+          {
+            "label": "Diffusion Policy: Visuomotor Policy Learning via Action Diffusion.",
+            "url": "https://arxiv.org/abs/2303.04137v5",
+            "kind": "reading"
+          },
+          {
+            "label": "Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware.",
+            "url": "https://arxiv.org/abs/2304.13705",
+            "kind": "reading"
+          }
+        ],
+        "courseMaterialNote": "Diffusion Policy: Visuomotor Policy Learning via Action Diffusion. Chi et al. (2024) Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware. Zhao et al. (2023)",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "Out Homework 1",
+        "deadlineResources": [
+          {
+            "label": "Homework 1 handout (PDF)",
+            "url": "https://cs224r.stanford.edu/material/hw1/CS224R_2026_Homework_1.pdf",
+            "kind": "assignment"
+          },
+          {
+            "label": "Homework 1 starter code",
+            "url": "https://cs224r.stanford.edu/material/hw1/hw1_starter_code.zip",
+            "kind": "assignment"
+          },
+          {
+            "label": "Homework 1 LaTeX template",
+            "url": "https://cs224r.stanford.edu/material/hw1/CS224R_2026_Homework_1.tex",
+            "kind": "assignment"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "date": "Wed, April 8, 2026",
+        "description": "Lecture Policy Gradients",
+        "lectureMaterials": [
+          {
+            "label": "Lecture slides · Policy Gradients",
+            "url": "https://cs224r.stanford.edu/slides/03_cs224r_policy_gradients_2026.pdf",
+            "kind": "slides"
+          }
+        ],
+        "readings": [
+          {
+            "label": "Simple statistical gradient-following algorithms for connectionist reinforcement learning.",
+            "url": "https://link.springer.com/article/10.1007/BF00992696",
+            "kind": "reading"
+          }
+        ],
+        "courseMaterialNote": "Simple statistical gradient-following algorithms for connectionist reinforcement learning. Williams (1992)",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Fri, April 10, 2026",
+        "description": "Lecture Actor-Critic Methods",
+        "lectureMaterials": [
+          {
+            "label": "Lecture slides · Actor-Critic Methods",
+            "url": "https://cs224r.stanford.edu/slides/04_cs224r_actor_critic_2026.pdf",
+            "kind": "slides"
+          }
+        ],
+        "readings": [
+          {
+            "label": "Policy Gradient Methods for Reinforcement Learning with Function Approximation.",
+            "url": "https://proceedings.neurips.cc/paper_files/paper/1999/file/464d828b85b0bed98e80ade0a5c43b0f-Paper.pdf",
+            "kind": "reading"
+          },
+          {
+            "label": "Proximal Policy Optimization.",
+            "url": "https://arxiv.org/pdf/1707.06347",
+            "kind": "reading"
+          }
+        ],
+        "courseMaterialNote": "Policy Gradient Methods for Reinforcement Learning with Function Approximation. Sutton et al. (1999) Proximal Policy Optimization. Schulman et al. (2017)",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "Due Homework 1 Out Homework 2",
+        "deadlineResources": [
+          {
+            "label": "Homework 2 handout (PDF)",
+            "url": "https://cs224r.stanford.edu/material/hw2/CS224R_2026_Homework_2.pdf",
+            "kind": "assignment"
+          },
+          {
+            "label": "Homework 2 starter code",
+            "url": "https://cs224r.stanford.edu/material/hw2/hw2_starter_code.zip",
+            "kind": "assignment"
+          },
+          {
+            "label": "Homework 2 LaTeX template",
+            "url": "https://cs224r.stanford.edu/material/hw2/CS224R_2026_Homework_2.tex",
+            "kind": "assignment"
+          },
+          {
+            "label": "Course compute guide (PDF)",
+            "url": "https://cs224r.stanford.edu/material/CS224R_compute_guide.pdf",
+            "kind": "assignment"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "date": "Wed, April 15, 2026",
+        "description": "Lecture Off-Policy Actor Critic Methods",
+        "lectureMaterials": [
+          {
+            "label": "Lecture slides · Off-Policy Actor Critic Methods",
+            "url": "https://cs224r.stanford.edu/slides/05_cs224r_offpolicy_actor_critic_2026.pdf",
+            "kind": "slides"
+          }
+        ],
+        "readings": [
+          {
+            "label": "Playing Atari with Deep Reinforcement Learning.",
+            "url": "https://arxiv.org/abs/1312.5602",
+            "kind": "reading"
+          }
+        ],
+        "courseMaterialNote": "Playing Atari with Deep Reinforcement Learning. Mnih et al. (2013)",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Fri, April 17, 2026",
+        "description": "Lecture Q-learning",
+        "lectureMaterials": [
+          {
+            "label": "Lecture slides · Q-learning",
+            "url": "https://cs224r.stanford.edu/slides/06_cs224r_qlearning_2026.pdf",
+            "kind": "slides"
+          }
+        ],
+        "readings": [
+          {
+            "label": "Deep Reinforcement Learning with Double Q-learning.",
+            "url": "https://arxiv.org/abs/1509.06461",
+            "kind": "reading"
+          },
+          {
+            "label": "A Distributional Perspective on Reinforcement Learning.",
+            "url": "https://arxiv.org/abs/1707.06887",
+            "kind": "reading"
+          }
+        ],
+        "courseMaterialNote": "Deep Reinforcement Learning with Double Q-learning. Hasselt et al. (2015) A Distributional Perspective on Reinforcement Learning. Bellemare et al. (2017)",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Wed, April 22, 2026",
+        "description": "Lecture Offline RL",
+        "lectureMaterials": [
+          {
+            "label": "Lecture slides · Offline RL",
+            "url": "https://cs224r.stanford.edu/slides/07_cs224r_offline_rl_2026.pdf",
+            "kind": "slides"
+          }
+        ],
+        "readings": [
+          {
+            "label": "Offline Reinforcement Learning with Implicit Q-Learning.",
+            "url": "https://arxiv.org/abs/2110.06169",
+            "kind": "reading"
+          }
+        ],
+        "courseMaterialNote": "Offline Reinforcement Learning with Implicit Q-Learning. Kostrikov et al. (2021)",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "Due Project Survey",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Fri, April 24, 2026",
+        "description": "Lecture Reward Learning",
+        "lectureMaterials": [
+          {
+            "label": "Lecture slides · Reward Learning",
+            "url": "https://cs224r.stanford.edu/slides/08_cs224r_reward_learning_2026.pdf",
+            "kind": "slides"
+          }
+        ],
+        "readings": [
+          {
+            "label": "Deep reinforcement learning from human preferences.",
+            "url": "https://arxiv.org/abs/1706.03741",
+            "kind": "reading"
+          }
+        ],
+        "courseMaterialNote": "Deep reinforcement learning from human preferences. Christiano et al. (2017)",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "Due Homework 2 Out Homework 3",
+        "deadlineResources": [
+          {
+            "label": "Homework 3 handout (PDF)",
+            "url": "https://cs224r.stanford.edu/material/hw3/CS224R_2026_Homework_3.pdf",
+            "kind": "assignment"
+          },
+          {
+            "label": "Homework 3 starter code",
+            "url": "https://cs224r.stanford.edu/material/hw3/hw3_starter_code.zip",
+            "kind": "assignment"
+          },
+          {
+            "label": "Homework 3 LaTeX template",
+            "url": "https://cs224r.stanford.edu/material/hw3/CS224R_2026_Homework_3.tex",
+            "kind": "assignment"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "date": "Wed, April 29, 2026",
+        "description": "Lecture RL for LLMs: Preference Optimization (Guest Lecture: Archit Sharma)",
+        "lectureMaterials": [
+          {
+            "label": "Lecture slides · RL for LLMs: Preference Optimization (Guest Lecture: Archit Sharma)",
+            "url": "https://cs224r.stanford.edu/slides/09_cs224r_rlhf_2026.pdf",
+            "kind": "slides"
+          }
+        ],
+        "readings": [
+          {
+            "label": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model.",
+            "url": "https://arxiv.org/abs/2305.18290",
+            "kind": "reading"
+          },
+          {
+            "label": "IPO: Your Language Model is Secretly a Preference Classifier.",
+            "url": "https://arxiv.org/abs/2502.16182",
+            "kind": "reading"
+          }
+        ],
+        "courseMaterialNote": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model. Rafailov et al. (2023) IPO: Your Language Model is Secretly a Preference Classifier. Garg et al. (2025)",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Fri, May 1, 2026",
+        "description": "Lecture RL for LLMs: Reasoning (Guest Lecture: Noam Brown)",
+        "lectureMaterials": [
+          {
+            "label": "Lecture slides · RL for LLMs: Reasoning (Guest Lecture: Noam Brown)",
+            "url": "https://cs224r.stanford.edu/slides/10_cs224r_rl_for_llms_reasoning_2026.pdf",
+            "kind": "slides"
+          }
+        ],
+        "readings": [],
+        "courseMaterialNote": "",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "Due Project Proposal (incl. SFT milestone for default project)",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Wed, May 6, 2026",
+        "description": "Lecture Model-Based RL",
+        "lectureMaterials": [
+          {
+            "label": "Lecture slides · Model-Based RL",
+            "url": "https://cs224r.stanford.edu/slides/11_cs224r_mbrl_2026.pdf",
+            "kind": "slides"
+          }
+        ],
+        "readings": [
+          {
+            "label": "When to Trust Your Model: Model-Based Policy Optimization.",
+            "url": "https://arxiv.org/abs/1906.08253",
+            "kind": "reading"
+          }
+        ],
+        "courseMaterialNote": "When to Trust Your Model: Model-Based Policy Optimization. Janner et al. (2019)",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Fri, May 8, 2026",
+        "description": "Lecture Multi-Task and Goal-Conditioned RL",
+        "lectureMaterials": [
+          {
+            "label": "Lecture slides · Multi-Task and Goal-Conditioned RL",
+            "url": "https://cs224r.stanford.edu/slides/12_cs224r_mtrl_gcrl_2026.pdf",
+            "kind": "slides"
+          }
+        ],
+        "readings": [
+          {
+            "label": "Hindsight Experience Replay.",
+            "url": "https://arxiv.org/abs/1707.01495",
+            "kind": "reading"
+          }
+        ],
+        "courseMaterialNote": "Hindsight Experience Replay. Andrychowicz et al. (2018)",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "Due Homework 3",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Wed, May 13, 2026",
+        "description": "Lecture Meta-RL",
+        "lectureMaterials": [
+          {
+            "label": "Lecture slides · Meta-RL",
+            "url": "https://cs224r.stanford.edu/slides/13_cs224r_metarl_2026.pdf",
+            "kind": "slides"
+          }
+        ],
+        "readings": [
+          {
+            "label": "RL 2 : Fast Reinforcement Learning via Slow Reinforcement Learning.",
+            "url": "https://arxiv.org/abs/1611.02779",
+            "kind": "reading"
+          }
+        ],
+        "courseMaterialNote": "RL 2 : Fast Reinforcement Learning via Slow Reinforcement Learning. Duan et al. (2016)",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Spring 2025 playlist supplement",
+        "description": "Exploration — no separate lecture row in the Spring 2026 timeline",
+        "lectureMaterials": [],
+        "readings": [
+          {
+            "label": "Decoupling Exploration and Exploitation for Meta-Reinforcement Learning without Sacrifices.",
+            "url": "https://arxiv.org/abs/2008.02790",
+            "kind": "reading"
+          }
+        ],
+        "courseMaterialNote": "Decoupling Exploration and Exploitation for Meta-Reinforcement Learning without Sacrifices. Liu et al. (2021)",
+        "eventText": "The related optional exploration reading is preserved here; the Spring 2026 in-class exam remains listed under course events.",
+        "eventResources": [],
+        "deadline": "",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Wed, May 20, 2026",
+        "description": "Lecture Hierarchical RL and IL",
+        "lectureMaterials": [
+          {
+            "label": "Lecture slides · Hierarchical RL and IL",
+            "url": "https://cs224r.stanford.edu/slides/15_cs224r_hierarchy_2026.pdf",
+            "kind": "slides"
+          }
+        ],
+        "readings": [
+          {
+            "label": "Do As I Can, Not As I Say: Grounding Language in Robotic Affordances.",
+            "url": "https://arxiv.org/abs/2204.01691",
+            "kind": "reading"
+          }
+        ],
+        "courseMaterialNote": "Do As I Can, Not As I Say: Grounding Language in Robotic Affordances. Ahn et al. (2022)",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Fri, May 22, 2026",
+        "description": "Lecture RL for Robots: Sim-to-Real Transfer (Guest Lecture: Guanya Shi)",
+        "lectureMaterials": [
+          {
+            "label": "Lecture slides · RL for Robots: Sim-to-Real Transfer (Guest Lecture: Guanya Shi)",
+            "url": "https://cs224r.stanford.edu/slides/16_cs224r_sim2real_robot_learning_2026.pdf",
+            "kind": "slides"
+          }
+        ],
+        "readings": [
+          {
+            "label": "Sim-to-Real: Learning Agile Locomotion For Quadruped Robots.",
+            "url": "https://arxiv.org/abs/1804.10332",
+            "kind": "reading"
+          }
+        ],
+        "courseMaterialNote": "Sim-to-Real: Learning Agile Locomotion For Quadruped Robots. Tan et al. (2018)",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "Due Project Milestone",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Wed, May 27, 2026",
+        "description": "Lecture RL for Robots: RL for VLAs",
+        "lectureMaterials": [
+          {
+            "label": "Lecture slides · RL for Robots: RL for VLAs",
+            "url": "https://cs224r.stanford.edu/slides/17_cs224r_rl_vlas_2026.pdf",
+            "kind": "slides"
+          }
+        ],
+        "readings": [],
+        "courseMaterialNote": "",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Fri, May 29, 2026",
+        "description": "Lecture Frontiers",
+        "lectureMaterials": [
+          {
+            "label": "Lecture slides · Frontiers",
+            "url": "https://cs224r.stanford.edu/slides/18_cs224r_frontiers_how_to_research_2026.pdf",
+            "kind": "slides"
+          }
+        ],
+        "readings": [],
+        "courseMaterialNote": "",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "",
+        "deadlineResources": []
+      }
+    ]
+  ],
+  "lessonStudyMaterials": [
+    [
+      {
+        "type": "pdf",
+        "label": "Lecture slides · Course Intro + Start of MDPs & Imitation",
+        "url": "https://cs224r.stanford.edu/slides/01_cs224r_intro_2026.pdf",
+        "sourceUrl": "https://cs224r.stanford.edu/slides/01_cs224r_intro_2026.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "The complete official Spring 2026 CS224R slide deck for this class.",
+        "group": "Lecture slides"
+      }
+    ],
+    [
+      {
+        "type": "pdf",
+        "label": "Lecture slides · Imitation Learning",
+        "url": "https://cs224r.stanford.edu/slides/02_cs224r_imitation_2026.pdf",
+        "sourceUrl": "https://cs224r.stanford.edu/slides/02_cs224r_imitation_2026.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "The complete official Spring 2026 CS224R slide deck for this class.",
+        "group": "Lecture slides"
+      },
+      {
+        "type": "pdf",
+        "label": "Diffusion Policy: Visuomotor Policy Learning via Action Diffusion.",
+        "url": "https://arxiv.org/pdf/2303.04137v5.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2303.04137v5",
+        "sourceLabel": "Open original resource ↗",
+        "description": "An embeddable paper from this class’s official Notes & Optional Reading column.",
+        "group": "Notes and optional readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware.",
+        "url": "https://arxiv.org/pdf/2304.13705.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2304.13705",
+        "sourceLabel": "Open original resource ↗",
+        "description": "An embeddable paper from this class’s official Notes & Optional Reading column.",
+        "group": "Notes and optional readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Homework 1 handout (PDF)",
+        "url": "https://cs224r.stanford.edu/material/hw1/CS224R_2026_Homework_1.pdf",
+        "sourceUrl": "https://cs224r.stanford.edu/material/hw1/CS224R_2026_Homework_1.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "An official CS224R assignment document released with this class.",
+        "group": "Assignments"
+      }
+    ],
+    [
+      {
+        "type": "pdf",
+        "label": "Lecture slides · Policy Gradients",
+        "url": "https://cs224r.stanford.edu/slides/03_cs224r_policy_gradients_2026.pdf",
+        "sourceUrl": "https://cs224r.stanford.edu/slides/03_cs224r_policy_gradients_2026.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "The complete official Spring 2026 CS224R slide deck for this class.",
+        "group": "Lecture slides"
+      }
+    ],
+    [
+      {
+        "type": "pdf",
+        "label": "Lecture slides · Actor-Critic Methods",
+        "url": "https://cs224r.stanford.edu/slides/04_cs224r_actor_critic_2026.pdf",
+        "sourceUrl": "https://cs224r.stanford.edu/slides/04_cs224r_actor_critic_2026.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "The complete official Spring 2026 CS224R slide deck for this class.",
+        "group": "Lecture slides"
+      },
+      {
+        "type": "pdf",
+        "label": "Policy Gradient Methods for Reinforcement Learning with Function Approximation.",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/1999/file/464d828b85b0bed98e80ade0a5c43b0f-Paper.pdf",
+        "sourceUrl": "https://proceedings.neurips.cc/paper_files/paper/1999/file/464d828b85b0bed98e80ade0a5c43b0f-Paper.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "An embeddable paper from this class’s official Notes & Optional Reading column.",
+        "group": "Notes and optional readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Homework 2 handout (PDF)",
+        "url": "https://cs224r.stanford.edu/material/hw2/CS224R_2026_Homework_2.pdf",
+        "sourceUrl": "https://cs224r.stanford.edu/material/hw2/CS224R_2026_Homework_2.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "An official CS224R assignment document released with this class.",
+        "group": "Assignments"
+      },
+      {
+        "type": "pdf",
+        "label": "Course compute guide (PDF)",
+        "url": "https://cs224r.stanford.edu/material/CS224R_compute_guide.pdf",
+        "sourceUrl": "https://cs224r.stanford.edu/material/CS224R_compute_guide.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "An official CS224R assignment document released with this class.",
+        "group": "Assignments"
+      }
+    ],
+    [
+      {
+        "type": "pdf",
+        "label": "Lecture slides · Off-Policy Actor Critic Methods",
+        "url": "https://cs224r.stanford.edu/slides/05_cs224r_offpolicy_actor_critic_2026.pdf",
+        "sourceUrl": "https://cs224r.stanford.edu/slides/05_cs224r_offpolicy_actor_critic_2026.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "The complete official Spring 2026 CS224R slide deck for this class.",
+        "group": "Lecture slides"
+      },
+      {
+        "type": "pdf",
+        "label": "Playing Atari with Deep Reinforcement Learning.",
+        "url": "https://arxiv.org/pdf/1312.5602.pdf",
+        "sourceUrl": "https://arxiv.org/abs/1312.5602",
+        "sourceLabel": "Open original resource ↗",
+        "description": "An embeddable paper from this class’s official Notes & Optional Reading column.",
+        "group": "Notes and optional readings"
+      }
+    ],
+    [
+      {
+        "type": "pdf",
+        "label": "Lecture slides · Q-learning",
+        "url": "https://cs224r.stanford.edu/slides/06_cs224r_qlearning_2026.pdf",
+        "sourceUrl": "https://cs224r.stanford.edu/slides/06_cs224r_qlearning_2026.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "The complete official Spring 2026 CS224R slide deck for this class.",
+        "group": "Lecture slides"
+      },
+      {
+        "type": "pdf",
+        "label": "Deep Reinforcement Learning with Double Q-learning.",
+        "url": "https://arxiv.org/pdf/1509.06461.pdf",
+        "sourceUrl": "https://arxiv.org/abs/1509.06461",
+        "sourceLabel": "Open original resource ↗",
+        "description": "An embeddable paper from this class’s official Notes & Optional Reading column.",
+        "group": "Notes and optional readings"
+      },
+      {
+        "type": "pdf",
+        "label": "A Distributional Perspective on Reinforcement Learning.",
+        "url": "https://arxiv.org/pdf/1707.06887.pdf",
+        "sourceUrl": "https://arxiv.org/abs/1707.06887",
+        "sourceLabel": "Open original resource ↗",
+        "description": "An embeddable paper from this class’s official Notes & Optional Reading column.",
+        "group": "Notes and optional readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Extra Q-learning section",
+        "url": "https://cs224r.stanford.edu/material/CS224R_Tutotial_Max.pdf",
+        "sourceUrl": "https://cs224r.stanford.edu/material/CS224R_Tutotial_Max.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "The complete official Spring 2026 CS224R slide deck for this class.",
+        "group": "Lecture slides"
+      }
+    ],
+    [
+      {
+        "type": "pdf",
+        "label": "Lecture slides · Offline RL",
+        "url": "https://cs224r.stanford.edu/slides/07_cs224r_offline_rl_2026.pdf",
+        "sourceUrl": "https://cs224r.stanford.edu/slides/07_cs224r_offline_rl_2026.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "The complete official Spring 2026 CS224R slide deck for this class.",
+        "group": "Lecture slides"
+      },
+      {
+        "type": "pdf",
+        "label": "Offline Reinforcement Learning with Implicit Q-Learning.",
+        "url": "https://arxiv.org/pdf/2110.06169.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2110.06169",
+        "sourceLabel": "Open original resource ↗",
+        "description": "An embeddable paper from this class’s official Notes & Optional Reading column.",
+        "group": "Notes and optional readings"
+      }
+    ],
+    [
+      {
+        "type": "pdf",
+        "label": "Lecture slides · Reward Learning",
+        "url": "https://cs224r.stanford.edu/slides/08_cs224r_reward_learning_2026.pdf",
+        "sourceUrl": "https://cs224r.stanford.edu/slides/08_cs224r_reward_learning_2026.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "The complete official Spring 2026 CS224R slide deck for this class.",
+        "group": "Lecture slides"
+      },
+      {
+        "type": "pdf",
+        "label": "Deep reinforcement learning from human preferences.",
+        "url": "https://arxiv.org/pdf/1706.03741.pdf",
+        "sourceUrl": "https://arxiv.org/abs/1706.03741",
+        "sourceLabel": "Open original resource ↗",
+        "description": "An embeddable paper from this class’s official Notes & Optional Reading column.",
+        "group": "Notes and optional readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Homework 3 handout (PDF)",
+        "url": "https://cs224r.stanford.edu/material/hw3/CS224R_2026_Homework_3.pdf",
+        "sourceUrl": "https://cs224r.stanford.edu/material/hw3/CS224R_2026_Homework_3.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "An official CS224R assignment document released with this class.",
+        "group": "Assignments"
+      }
+    ],
+    [
+      {
+        "type": "pdf",
+        "label": "Lecture slides · RL for LLMs: Preference Optimization (Guest Lecture: Archit Sharma)",
+        "url": "https://cs224r.stanford.edu/slides/09_cs224r_rlhf_2026.pdf",
+        "sourceUrl": "https://cs224r.stanford.edu/slides/09_cs224r_rlhf_2026.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "The complete official Spring 2026 CS224R slide deck for this class.",
+        "group": "Lecture slides"
+      },
+      {
+        "type": "pdf",
+        "label": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model.",
+        "url": "https://arxiv.org/pdf/2305.18290.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2305.18290",
+        "sourceLabel": "Open original resource ↗",
+        "description": "An embeddable paper from this class’s official Notes & Optional Reading column.",
+        "group": "Notes and optional readings"
+      },
+      {
+        "type": "pdf",
+        "label": "IPO: Your Language Model is Secretly a Preference Classifier.",
+        "url": "https://arxiv.org/pdf/2502.16182.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2502.16182",
+        "sourceLabel": "Open original resource ↗",
+        "description": "An embeddable paper from this class’s official Notes & Optional Reading column.",
+        "group": "Notes and optional readings"
+      }
+    ],
+    [
+      {
+        "type": "pdf",
+        "label": "Lecture slides · RL for LLMs: Reasoning (Guest Lecture: Noam Brown)",
+        "url": "https://cs224r.stanford.edu/slides/10_cs224r_rl_for_llms_reasoning_2026.pdf",
+        "sourceUrl": "https://cs224r.stanford.edu/slides/10_cs224r_rl_for_llms_reasoning_2026.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "The complete official Spring 2026 CS224R slide deck for this class.",
+        "group": "Lecture slides"
+      }
+    ],
+    [
+      {
+        "type": "pdf",
+        "label": "Lecture slides · Model-Based RL",
+        "url": "https://cs224r.stanford.edu/slides/11_cs224r_mbrl_2026.pdf",
+        "sourceUrl": "https://cs224r.stanford.edu/slides/11_cs224r_mbrl_2026.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "The complete official Spring 2026 CS224R slide deck for this class.",
+        "group": "Lecture slides"
+      },
+      {
+        "type": "pdf",
+        "label": "When to Trust Your Model: Model-Based Policy Optimization.",
+        "url": "https://arxiv.org/pdf/1906.08253.pdf",
+        "sourceUrl": "https://arxiv.org/abs/1906.08253",
+        "sourceLabel": "Open original resource ↗",
+        "description": "An embeddable paper from this class’s official Notes & Optional Reading column.",
+        "group": "Notes and optional readings"
+      }
+    ],
+    [
+      {
+        "type": "pdf",
+        "label": "Lecture slides · Multi-Task and Goal-Conditioned RL",
+        "url": "https://cs224r.stanford.edu/slides/12_cs224r_mtrl_gcrl_2026.pdf",
+        "sourceUrl": "https://cs224r.stanford.edu/slides/12_cs224r_mtrl_gcrl_2026.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "The complete official Spring 2026 CS224R slide deck for this class.",
+        "group": "Lecture slides"
+      },
+      {
+        "type": "pdf",
+        "label": "Hindsight Experience Replay.",
+        "url": "https://arxiv.org/pdf/1707.01495.pdf",
+        "sourceUrl": "https://arxiv.org/abs/1707.01495",
+        "sourceLabel": "Open original resource ↗",
+        "description": "An embeddable paper from this class’s official Notes & Optional Reading column.",
+        "group": "Notes and optional readings"
+      }
+    ],
+    [
+      {
+        "type": "pdf",
+        "label": "Lecture slides · Meta-RL",
+        "url": "https://cs224r.stanford.edu/slides/13_cs224r_metarl_2026.pdf",
+        "sourceUrl": "https://cs224r.stanford.edu/slides/13_cs224r_metarl_2026.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "The complete official Spring 2026 CS224R slide deck for this class.",
+        "group": "Lecture slides"
+      },
+      {
+        "type": "pdf",
+        "label": "RL 2 : Fast Reinforcement Learning via Slow Reinforcement Learning.",
+        "url": "https://arxiv.org/pdf/1611.02779.pdf",
+        "sourceUrl": "https://arxiv.org/abs/1611.02779",
+        "sourceLabel": "Open original resource ↗",
+        "description": "An embeddable paper from this class’s official Notes & Optional Reading column.",
+        "group": "Notes and optional readings"
+      }
+    ],
+    [
+      {
+        "type": "pdf",
+        "label": "Decoupling Exploration and Exploitation for Meta-Reinforcement Learning without Sacrifices.",
+        "url": "https://arxiv.org/pdf/2008.02790.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2008.02790",
+        "sourceLabel": "Open original resource ↗",
+        "description": "An embeddable paper from this class’s official Notes & Optional Reading column.",
+        "group": "Notes and optional readings"
+      }
+    ],
+    [
+      {
+        "type": "pdf",
+        "label": "Lecture slides · Hierarchical RL and IL",
+        "url": "https://cs224r.stanford.edu/slides/15_cs224r_hierarchy_2026.pdf",
+        "sourceUrl": "https://cs224r.stanford.edu/slides/15_cs224r_hierarchy_2026.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "The complete official Spring 2026 CS224R slide deck for this class.",
+        "group": "Lecture slides"
+      },
+      {
+        "type": "pdf",
+        "label": "Do As I Can, Not As I Say: Grounding Language in Robotic Affordances.",
+        "url": "https://arxiv.org/pdf/2204.01691.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2204.01691",
+        "sourceLabel": "Open original resource ↗",
+        "description": "An embeddable paper from this class’s official Notes & Optional Reading column.",
+        "group": "Notes and optional readings"
+      }
+    ],
+    [
+      {
+        "type": "pdf",
+        "label": "Lecture slides · RL for Robots: Sim-to-Real Transfer (Guest Lecture: Guanya Shi)",
+        "url": "https://cs224r.stanford.edu/slides/16_cs224r_sim2real_robot_learning_2026.pdf",
+        "sourceUrl": "https://cs224r.stanford.edu/slides/16_cs224r_sim2real_robot_learning_2026.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "The complete official Spring 2026 CS224R slide deck for this class.",
+        "group": "Lecture slides"
+      },
+      {
+        "type": "pdf",
+        "label": "Sim-to-Real: Learning Agile Locomotion For Quadruped Robots.",
+        "url": "https://arxiv.org/pdf/1804.10332.pdf",
+        "sourceUrl": "https://arxiv.org/abs/1804.10332",
+        "sourceLabel": "Open original resource ↗",
+        "description": "An embeddable paper from this class’s official Notes & Optional Reading column.",
+        "group": "Notes and optional readings"
+      }
+    ],
+    [
+      {
+        "type": "pdf",
+        "label": "Lecture slides · RL for Robots: RL for VLAs",
+        "url": "https://cs224r.stanford.edu/slides/17_cs224r_rl_vlas_2026.pdf",
+        "sourceUrl": "https://cs224r.stanford.edu/slides/17_cs224r_rl_vlas_2026.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "The complete official Spring 2026 CS224R slide deck for this class.",
+        "group": "Lecture slides"
+      }
+    ],
+    [
+      {
+        "type": "pdf",
+        "label": "Lecture slides · Frontiers",
+        "url": "https://cs224r.stanford.edu/slides/18_cs224r_frontiers_how_to_research_2026.pdf",
+        "sourceUrl": "https://cs224r.stanford.edu/slides/18_cs224r_frontiers_how_to_research_2026.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "The complete official Spring 2026 CS224R slide deck for this class.",
+        "group": "Lecture slides"
+      }
+    ]
+  ],
+  "courseExtras": [
+    {
+      "date": "Fri, April 3, 2026",
+      "description": "TA Session PyTorch Tutorial 3:30 – 4:20 pm, Skilling Aud",
+      "lectureMaterials": [],
+      "readings": [],
+      "courseMaterialNote": "",
+      "eventText": "",
+      "eventResources": [],
+      "deadline": "",
+      "deadlineResources": []
+    },
+    {
+      "date": "Fri, April 17, 2026",
+      "description": "TA Session Extra section on Q-learning 4:45 – 5:35 pm, Thornton 102",
+      "lectureMaterials": [
+        {
+          "label": "Lecture slides · Extra section on Q-learning",
+          "url": "https://cs224r.stanford.edu/material/CS224R_Tutotial_Max.pdf",
+          "kind": "slides"
+        }
+      ],
+      "readings": [],
+      "courseMaterialNote": "",
+      "eventText": "",
+      "eventResources": [],
+      "deadline": "",
+      "deadlineResources": []
+    },
+    {
+      "date": "Mon, May 11, 2026",
+      "description": "Review Session Exam Review Session 4:30 – 5:20 pm, Skilling Aud",
+      "lectureMaterials": [
+        {
+          "label": "Exam Review Session",
+          "url": "https://cs224r.stanford.edu/material/CS224R_Exam_Review_Session_Riya.pptx",
+          "kind": "slides"
+        }
+      ],
+      "readings": [],
+      "courseMaterialNote": "",
+      "eventText": "",
+      "eventResources": [],
+      "deadline": "",
+      "deadlineResources": []
+    },
+    {
+      "date": "Fri, May 15, 2026",
+      "description": "Exam In-Class Exam",
+      "lectureMaterials": [],
+      "readings": [
+        {
+          "label": "Decoupling Exploration and Exploitation for Meta-Reinforcement Learning without Sacrifices.",
+          "url": "https://arxiv.org/abs/2008.02790",
+          "kind": "reading"
+        }
+      ],
+      "courseMaterialNote": "Decoupling Exploration and Exploitation for Meta-Reinforcement Learning without Sacrifices. Liu et al. (2021)",
+      "eventText": "",
+      "eventResources": [],
+      "deadline": "",
+      "deadlineResources": []
+    },
+    {
+      "date": "Wed, June 3, 2026",
+      "description": "Presentations No Lecture (Poster Session)",
+      "lectureMaterials": [],
+      "readings": [],
+      "courseMaterialNote": "No late days or OAE extensions are allowed for the project poster.",
+      "eventText": "",
+      "eventResources": [],
+      "deadline": "Due Project Poster",
+      "deadlineResources": []
+    },
+    {
+      "date": "Fri, June 5, 2026",
+      "description": "No scheduled class item",
+      "lectureMaterials": [],
+      "readings": [],
+      "courseMaterialNote": "",
+      "eventText": "",
+      "eventResources": [],
+      "deadline": "",
+      "deadlineResources": []
+    },
+    {
+      "date": "Mon, June 8, 2026",
+      "description": "",
+      "lectureMaterials": [],
+      "readings": [],
+      "courseMaterialNote": "No late days or OAE extensions are allowed for the final project report submission.",
+      "eventText": "",
+      "eventResources": [],
+      "deadline": "Due Project Report",
+      "deadlineResources": []
+    }
+  ]
+}

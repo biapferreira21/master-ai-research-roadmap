@@ -1,0 +1,2014 @@
+{
+  "lessonEntries": [
+    [
+      {
+        "date": "Tuesday, April 2, 2024",
+        "description": "Word Vectors",
+        "lectureMaterials": [
+          {
+            "label": "Lecture slides",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture01-wordvecs1.pdf",
+            "kind": "slides"
+          },
+          {
+            "label": "Lecture notes",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/readings/cs224n_winter2023_lecture1_notes_draft.pdf",
+            "kind": "slides"
+          }
+        ],
+        "readings": [
+          {
+            "label": "Efficient Estimation of Word Representations in Vector Space",
+            "url": "http://arxiv.org/pdf/1301.3781.pdf",
+            "kind": "reading"
+          },
+          {
+            "label": "Distributed Representations of Words and Phrases and their Compositionality",
+            "url": "http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf",
+            "kind": "reading"
+          }
+        ],
+        "courseMaterialNote": "Suggested Readings: Efficient Estimation of Word Representations in Vector Space (original word2vec paper) Distributed Representations of Words and Phrases and their Compositionality (negative sampling paper)",
+        "eventText": "Assignment 1 out",
+        "eventResources": [
+          {
+            "label": "Assignment 1 code",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/assignments/a1.zip",
+            "kind": "project"
+          },
+          {
+            "label": "Assignment 1 preview",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/assignments/a1_preview/exploring_word_vectors.html",
+            "kind": "course"
+          }
+        ],
+        "deadline": "",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Thursday, April 4, 2024",
+        "description": "Word Vectors and Language Models",
+        "lectureMaterials": [
+          {
+            "label": "Lecture slides",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture02-wordvecs2.pdf",
+            "kind": "slides"
+          },
+          {
+            "label": "Lecture notes",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/readings/cs224n-2019-notes02-wordvecs2.pdf",
+            "kind": "slides"
+          },
+          {
+            "label": "Lecture code",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/materials/gensim_2024.zip",
+            "kind": "project"
+          }
+        ],
+        "readings": [
+          {
+            "label": "GloVe: Global Vectors for Word Representation",
+            "url": "http://nlp.stanford.edu/pubs/glove.pdf",
+            "kind": "reading"
+          },
+          {
+            "label": "Improving Distributional Similarity with Lessons Learned from Word Embeddings",
+            "url": "http://www.aclweb.org/anthology/Q15-1016",
+            "kind": "reading"
+          },
+          {
+            "label": "Evaluation methods for unsupervised word embeddings",
+            "url": "http://www.aclweb.org/anthology/D15-1036",
+            "kind": "reading"
+          },
+          {
+            "label": "A Latent Variable Model Approach to PMI-based Word Embeddings",
+            "url": "http://aclweb.org/anthology/Q16-1028",
+            "kind": "reading"
+          },
+          {
+            "label": "Linear Algebraic Structure of Word Senses, with Applications to Polysemy",
+            "url": "https://transacl.org/ojs/index.php/tacl/article/viewFile/1346/320",
+            "kind": "reading"
+          },
+          {
+            "label": "On the Dimensionality of Word Embedding",
+            "url": "https://papers.nips.cc/paper/7368-on-the-dimensionality-of-word-embedding.pdf",
+            "kind": "reading"
+          }
+        ],
+        "courseMaterialNote": "Suggested Readings: GloVe: Global Vectors for Word Representation (original GloVe paper) Improving Distributional Similarity with Lessons Learned from Word Embeddings Evaluation methods for unsupervised word embeddings Additional Readings: A Latent Variable Model Approach to PMI-based Word Embeddings Linear Algebraic Structure of Word Senses, with Applications to Polysemy On the Dimensionality of Word Embedding",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Tuesday, April 9, 2024",
+        "description": "Backpropagation and Neural Network Basics",
+        "lectureMaterials": [
+          {
+            "label": "Lecture slides",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture03-neuralnets.pdf",
+            "kind": "slides"
+          },
+          {
+            "label": "Lecture notes",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/readings/cs224n-2019-notes03-neuralnets.pdf",
+            "kind": "slides"
+          }
+        ],
+        "readings": [
+          {
+            "label": "matrix calculus notes",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/readings/gradient-notes.pdf",
+            "kind": "reading"
+          },
+          {
+            "label": "Review of differential calculus",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/readings/review-differential-calculus.pdf",
+            "kind": "reading"
+          },
+          {
+            "label": "CS231n notes on network architectures",
+            "url": "http://cs231n.github.io/neural-networks-1/",
+            "kind": "reading"
+          },
+          {
+            "label": "CS231n notes on backprop",
+            "url": "http://cs231n.github.io/optimization-2/",
+            "kind": "reading"
+          },
+          {
+            "label": "Derivatives, Backpropagation, and Vectorization",
+            "url": "http://cs231n.stanford.edu/handouts/derivatives.pdf",
+            "kind": "reading"
+          },
+          {
+            "label": "Learning Representations by Backpropagating Errors",
+            "url": "http://www.iro.umontreal.ca/~vincentp/ift3395/lectures/backprop_old.pdf",
+            "kind": "reading"
+          },
+          {
+            "label": "Yes you should understand backprop",
+            "url": "https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b",
+            "kind": "reading"
+          },
+          {
+            "label": "Natural Language Processing (Almost) from Scratch",
+            "url": "http://www.jmlr.org/papers/volume12/collobert11a/collobert11a.pdf",
+            "kind": "reading"
+          }
+        ],
+        "courseMaterialNote": "Suggested Readings: matrix calculus notes Review of differential calculus CS231n notes on network architectures CS231n notes on backprop Derivatives, Backpropagation, and Vectorization Learning Representations by Backpropagating Errors (seminal Rumelhart et al. backpropagation paper) Additional Readings: Yes you should understand backprop Natural Language Processing (Almost) from Scratch",
+        "eventText": "Assignment 2 out",
+        "eventResources": [
+          {
+            "label": "Assignment 2 code",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/assignments/a2.zip",
+            "kind": "project"
+          },
+          {
+            "label": "Assignment 2 handout",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/assignments/a2.pdf",
+            "kind": "slides"
+          },
+          {
+            "label": "LaTeX template",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/assignments/a2_latex_template.zip",
+            "kind": "project"
+          }
+        ],
+        "deadline": "Assignment 1 due",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Thursday, April 11, 2024",
+        "description": "Dependency Parsing",
+        "lectureMaterials": [
+          {
+            "label": "Lecture slides",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture04-dep-parsing.pdf",
+            "kind": "slides"
+          },
+          {
+            "label": "Lecture notes",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/readings/cs224n-2019-notes04-dependencyparsing.pdf",
+            "kind": "slides"
+          }
+        ],
+        "readings": [
+          {
+            "label": "Incrementality in Deterministic Dependency Parsing",
+            "url": "https://www.aclweb.org/anthology/W/W04/W04-0308.pdf",
+            "kind": "reading"
+          },
+          {
+            "label": "A Fast and Accurate Dependency Parser using Neural Networks",
+            "url": "https://www.emnlp2014.org/papers/pdf/EMNLP2014082.pdf",
+            "kind": "reading"
+          },
+          {
+            "label": "Dependency Parsing",
+            "url": "https://link.springer.com/book/10.1007/978-3-031-02131-2",
+            "kind": "reading"
+          },
+          {
+            "label": "Globally Normalized Transition-Based Neural Networks",
+            "url": "https://arxiv.org/pdf/1603.06042.pdf",
+            "kind": "reading"
+          },
+          {
+            "label": "Universal Stanford Dependencies: A cross-linguistic typology",
+            "url": "http://nlp.stanford.edu/~manning/papers/USD_LREC14_UD_revision.pdf",
+            "kind": "reading"
+          },
+          {
+            "label": "Universal Dependencies website",
+            "url": "http://universaldependencies.org/",
+            "kind": "reading"
+          },
+          {
+            "label": "Jurafsky & Martin Chapter 18",
+            "url": "https://web.stanford.edu/~jurafsky/slpdraft/18.pdf",
+            "kind": "reading"
+          }
+        ],
+        "courseMaterialNote": "Suggested Readings: Incrementality in Deterministic Dependency Parsing A Fast and Accurate Dependency Parser using Neural Networks Dependency Parsing Globally Normalized Transition-Based Neural Networks Universal Stanford Dependencies: A cross-linguistic typology Universal Dependencies website Jurafsky & Martin Chapter 18",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Tuesday, April 16, 2024",
+        "description": "Recurrent Neural Networks",
+        "lectureMaterials": [
+          {
+            "label": "Lecture slides",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture05-rnnlm.pdf",
+            "kind": "slides"
+          },
+          {
+            "label": "Lecture notes (Lectures 5 and 6)",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/readings/cs224n-2019-notes05-LM_RNN.pdf",
+            "kind": "slides"
+          }
+        ],
+        "readings": [
+          {
+            "label": "N-gram Language Models",
+            "url": "https://web.stanford.edu/~jurafsky/slp3/3.pdf",
+            "kind": "reading"
+          },
+          {
+            "label": "The Unreasonable Effectiveness of Recurrent Neural Networks",
+            "url": "http://karpathy.github.io/2015/05/21/rnn-effectiveness/",
+            "kind": "reading"
+          },
+          {
+            "label": "Sequence Modeling: Recurrent and Recursive Neural Nets",
+            "url": "http://www.deeplearningbook.org/contents/rnn.html",
+            "kind": "reading"
+          },
+          {
+            "label": "On Chomsky and the Two Cultures of Statistical Learning",
+            "url": "http://norvig.com/chomsky.html",
+            "kind": "reading"
+          },
+          {
+            "label": "Sequence Modeling: Recurrent and Recursive Neural Nets",
+            "url": "http://www.deeplearningbook.org/contents/rnn.html",
+            "kind": "reading"
+          },
+          {
+            "label": "Learning long-term dependencies with gradient descent is difficult",
+            "url": "https://ieeexplore.ieee.org/document/279181",
+            "kind": "reading"
+          },
+          {
+            "label": "On the difficulty of training Recurrent Neural Networks",
+            "url": "https://arxiv.org/pdf/1211.5063.pdf",
+            "kind": "reading"
+          },
+          {
+            "label": "Vanishing Gradients Jupyter Notebook",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1174/lectures/vanishing_grad_example.html",
+            "kind": "reading"
+          },
+          {
+            "label": "Understanding LSTM Networks",
+            "url": "http://colah.github.io/posts/2015-08-Understanding-LSTMs/",
+            "kind": "reading"
+          }
+        ],
+        "courseMaterialNote": "Suggested Readings: N-gram Language Models (textbook chapter) The Unreasonable Effectiveness of Recurrent Neural Networks (blog post overview) Sequence Modeling: Recurrent and Recursive Neural Nets (Sections 10.1 and 10.2) On Chomsky and the Two Cultures of Statistical Learning Sequence Modeling: Recurrent and Recursive Neural Nets (Sections 10.3, 10.5, 10.7-10.12) Learning long-term dependencies with gradient descent is difficult (one of the original vanishing gradient papers) On the difficulty of training Recurrent Neural Networks (proof of vanishing gradient problem) Vanishing Gradients Jupyter Notebook (demo for feedforward networks) Understanding LSTM Networks (blog post overview)",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Thursday, April 18, 2024",
+        "description": "Sequence to Sequence Models and Machine Translation",
+        "lectureMaterials": [
+          {
+            "label": "Lecture slides",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture06-fancy-rnn.pdf",
+            "kind": "slides"
+          },
+          {
+            "label": "Lecture notes (Lectures 5 and 6)",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/readings/cs224n-2019-notes05-LM_RNN.pdf",
+            "kind": "slides"
+          }
+        ],
+        "readings": [
+          {
+            "label": "Statistical Machine Translation slides, CS224N 2015",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1162/syllabus.shtml",
+            "kind": "reading"
+          },
+          {
+            "label": "Statistical Machine Translation",
+            "url": "https://www.cambridge.org/core/books/statistical-machine-translation/94EADF9F680558E13BE759997553CDE5",
+            "kind": "reading"
+          },
+          {
+            "label": "BLEU",
+            "url": "https://www.aclweb.org/anthology/P02-1040.pdf",
+            "kind": "reading"
+          },
+          {
+            "label": "Sequence to Sequence Learning with Neural Networks",
+            "url": "https://arxiv.org/pdf/1409.3215.pdf",
+            "kind": "reading"
+          },
+          {
+            "label": "Sequence Transduction with Recurrent Neural Networks",
+            "url": "https://arxiv.org/pdf/1211.3711.pdf",
+            "kind": "reading"
+          },
+          {
+            "label": "Neural Machine Translation by Jointly Learning to Align and Translate",
+            "url": "https://arxiv.org/pdf/1409.0473.pdf",
+            "kind": "reading"
+          },
+          {
+            "label": "Attention and Augmented Recurrent Neural Networks",
+            "url": "https://distill.pub/2016/augmented-rnns/",
+            "kind": "reading"
+          },
+          {
+            "label": "Massive Exploration of Neural Machine Translation Architectures",
+            "url": "https://arxiv.org/pdf/1703.03906.pdf",
+            "kind": "reading"
+          },
+          {
+            "label": "Achieving Open Vocabulary Neural Machine Translation with Hybrid Word-Character Models",
+            "url": "https://arxiv.org/abs/1604.00788.pdf",
+            "kind": "reading"
+          },
+          {
+            "label": "Revisiting Character-Based Neural Machine Translation with Capacity and Compression",
+            "url": "https://arxiv.org/pdf/1808.09943.pdf",
+            "kind": "reading"
+          }
+        ],
+        "courseMaterialNote": "Suggested Readings: Statistical Machine Translation slides, CS224N 2015 (lectures 2/3/4) Statistical Machine Translation (book by Philipp Koehn) BLEU (original paper) Sequence to Sequence Learning with Neural Networks (original seq2seq NMT paper) Sequence Transduction with Recurrent Neural Networks (early seq2seq speech recognition paper) Neural Machine Translation by Jointly Learning to Align and Translate (original seq2seq+attention paper) Attention and Augmented Recurrent Neural Networks (blog post overview) Massive Exploration of Neural Machine Translation Architectures (practical advice for hyperparameter choices) Achieving Open Vocabulary Neural Machine Translation with Hybrid Word-Character Models Revisiting Character-Based Neural Machine Translation with Capacity and Compression",
+        "eventText": "Assignment 3 out",
+        "eventResources": [
+          {
+            "label": "Assignment 3 code",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/assignments/a3_spr24_student_code.zip",
+            "kind": "project"
+          },
+          {
+            "label": "Assignment 3 handout",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/assignments/a3_spr24_student_handout.pdf",
+            "kind": "slides"
+          },
+          {
+            "label": "LaTeX template",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/assignments/a3_spr24_student_latex.zip",
+            "kind": "project"
+          },
+          {
+            "label": "Overleaf template",
+            "url": "https://www.overleaf.com/read/cmyyxpbfzqyr#c58d0d",
+            "kind": "course"
+          }
+        ],
+        "deadline": "Assignment 2 due",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Tuesday, April 23, 2024",
+        "description": "Final Projects and LLM intro",
+        "lectureMaterials": [
+          {
+            "label": "Lecture slides",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture07-final-project.pdf",
+            "kind": "slides"
+          }
+        ],
+        "readings": [
+          {
+            "label": "Practical Methodology",
+            "url": "https://www.deeplearningbook.org/contents/guidelines.html",
+            "kind": "reading"
+          }
+        ],
+        "courseMaterialNote": "Suggested Readings: Practical Methodology ( Deep Learning book chapter)",
+        "eventText": "Project Proposal out Default Final Project out",
+        "eventResources": [
+          {
+            "label": "Project proposal handout",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/project/project-proposal-instructions-spr2024-updated.pdf",
+            "kind": "slides"
+          },
+          {
+            "label": "Default final project handout",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/project/default-final-project-handout-minbert-spr2024-updated.pdf",
+            "kind": "slides"
+          }
+        ],
+        "deadline": "",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Thursday, April 25, 2024",
+        "description": "Transformers ( by Anna Goldie )",
+        "lectureMaterials": [
+          {
+            "label": "Lecture slides",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture08-transformers.pdf",
+            "kind": "slides"
+          },
+          {
+            "label": "Lecture notes",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/readings/cs224n-self-attention-transformers-2023_draft.pdf",
+            "kind": "slides"
+          }
+        ],
+        "readings": [
+          {
+            "label": "Attention Is All You Need",
+            "url": "https://arxiv.org/abs/1706.03762.pdf",
+            "kind": "reading"
+          },
+          {
+            "label": "The Illustrated Transformer",
+            "url": "https://jalammar.github.io/illustrated-transformer/",
+            "kind": "reading"
+          },
+          {
+            "label": "Transformer (Google AI blog post)",
+            "url": "https://ai.googleblog.com/2017/08/transformer-novel-neural-network.html",
+            "kind": "reading"
+          },
+          {
+            "label": "Layer Normalization",
+            "url": "https://arxiv.org/pdf/1607.06450.pdf",
+            "kind": "reading"
+          },
+          {
+            "label": "Image Transformer",
+            "url": "https://arxiv.org/pdf/1802.05751.pdf",
+            "kind": "reading"
+          },
+          {
+            "label": "Music Transformer: Generating music with long-term structure",
+            "url": "https://arxiv.org/pdf/1809.04281.pdf",
+            "kind": "reading"
+          },
+          {
+            "label": "Jurafsky and Martin Chapter 10 (Transformers and Large Language Models)",
+            "url": "https://web.stanford.edu/~jurafsky/slpdraft/10.pdf",
+            "kind": "reading"
+          }
+        ],
+        "courseMaterialNote": "Suggested Readings: Attention Is All You Need The Illustrated Transformer Transformer (Google AI blog post) Layer Normalization Image Transformer Music Transformer: Generating music with long-term structure Jurafsky and Martin Chapter 10 (Transformers and Large Language Models)",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Tuesday, April 30, 2024",
+        "description": "Pretraining",
+        "lectureMaterials": [
+          {
+            "label": "Lecture slides",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture09-pretraining-updated.pdf",
+            "kind": "slides"
+          }
+        ],
+        "readings": [
+          {
+            "label": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "url": "https://arxiv.org/pdf/1810.04805.pdf",
+            "kind": "reading"
+          },
+          {
+            "label": "Contextual Word Representations: A Contextual Introduction",
+            "url": "https://arxiv.org/abs/1902.06006.pdf",
+            "kind": "reading"
+          },
+          {
+            "label": "The Illustrated BERT, ELMo, and co.",
+            "url": "http://jalammar.github.io/illustrated-bert/",
+            "kind": "reading"
+          },
+          {
+            "label": "Jurafsky and Martin Chapter 11 (Fine-Tuning and Masked Language Models)",
+            "url": "https://web.stanford.edu/~jurafsky/slpdraft/11.pdf",
+            "kind": "reading"
+          }
+        ],
+        "courseMaterialNote": "Suggested Readings: BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding Contextual Word Representations: A Contextual Introduction The Illustrated BERT, ELMo, and co. Jurafsky and Martin Chapter 11 (Fine-Tuning and Masked Language Models)",
+        "eventText": "Assignment 4 out",
+        "eventResources": [
+          {
+            "label": "Assignment 4 code",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/assignments/a4_spr24_student_code.zip",
+            "kind": "project"
+          },
+          {
+            "label": "Assignment 4 handout",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/assignments/a4_spr24_student_handout.pdf",
+            "kind": "slides"
+          },
+          {
+            "label": "Overleaf template",
+            "url": "https://www.overleaf.com/read/srrtnkygvdpj#fc4729",
+            "kind": "course"
+          },
+          {
+            "label": "Colab run script",
+            "url": "https://colab.research.google.com/drive/193j033YPWyzooOK_C4tSBpnaguoewN7X?usp=sharing",
+            "kind": "project"
+          }
+        ],
+        "deadline": "Assignment 3 due",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Public playlist supplement",
+        "description": "This public-playlist lecture is not a separate row in the Spring 2024 schedule. It remains available as a supplemental lecture without unrelated schedule readings.",
+        "lectureMaterials": [],
+        "readings": [],
+        "courseMaterialNote": "",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Thursday, May 2, 2024",
+        "description": "Post-training (RLHF, SFT, DPO) ( by Archit Sharma )",
+        "lectureMaterials": [
+          {
+            "label": "Lecture slides",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture10-prompting-rlhf.pdf",
+            "kind": "slides"
+          }
+        ],
+        "readings": [
+          {
+            "label": "Aligning language models to follow instructions",
+            "url": "https://openai.com/research/instruction-following",
+            "kind": "reading"
+          },
+          {
+            "label": "Scaling Instruction-Finetuned Language Models",
+            "url": "https://arxiv.org/abs/2210.11416",
+            "kind": "reading"
+          },
+          {
+            "label": "AlpacaFarm: A Simulation Framework for Methods that Learn from Human Feedback",
+            "url": "https://arxiv.org/abs/2305.14387",
+            "kind": "reading"
+          },
+          {
+            "label": "How Far Can Camels Go? Exploring the State of Instruction Tuning on Open Resources",
+            "url": "https://arxiv.org/abs/2306.04751",
+            "kind": "reading"
+          },
+          {
+            "label": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+            "url": "https://arxiv.org/abs/2305.18290",
+            "kind": "reading"
+          }
+        ],
+        "courseMaterialNote": "Suggested Readings: Aligning language models to follow instructions Scaling Instruction-Finetuned Language Models AlpacaFarm: A Simulation Framework for Methods that Learn from Human Feedback How Far Can Camels Go? Exploring the State of Instruction Tuning on Open Resources Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Tuesday, May 7, 2024",
+        "description": "Benchmarking and Evaluation ( by Yann Dubois )",
+        "lectureMaterials": [
+          {
+            "label": "Lecture slides",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture11-evaluation-yann.pdf",
+            "kind": "slides"
+          }
+        ],
+        "readings": [
+          {
+            "label": "Challenges and Opportunities in NLP Benchmarking",
+            "url": "https://www.ruder.io/nlp-benchmarking/",
+            "kind": "reading"
+          },
+          {
+            "label": "Measuring Massive Multitask Language Understanding",
+            "url": "https://arxiv.org/abs/2009.03300",
+            "kind": "reading"
+          },
+          {
+            "label": "Holistic Evaluation of Language Models",
+            "url": "https://arxiv.org/abs/2211.09110",
+            "kind": "reading"
+          },
+          {
+            "label": "AlpacaEval",
+            "url": "https://tatsu-lab.github.io/alpaca_eval/",
+            "kind": "reading"
+          }
+        ],
+        "courseMaterialNote": "Suggested Readings: Challenges and Opportunities in NLP Benchmarking Measuring Massive Multitask Language Understanding Holistic Evaluation of Language Models AlpacaEval",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Thursday, May 9, 2024",
+        "description": "Efficient Neural Network Training ( by Shikhar Murty )",
+        "lectureMaterials": [
+          {
+            "label": "Lecture slides",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture12-training-shikhar.pdf",
+            "kind": "slides"
+          }
+        ],
+        "readings": [
+          {
+            "label": "Mixed Precision Training",
+            "url": "https://arxiv.org/abs/1710.03740",
+            "kind": "reading"
+          },
+          {
+            "label": "ZeRO: Memory Optimizations Toward Training Trillion Parameter Models",
+            "url": "https://arxiv.org/abs/1910.02054",
+            "kind": "reading"
+          },
+          {
+            "label": "PyTorch FSDP: Experiences on Scaling Fully Sharded Data Parallel",
+            "url": "https://arxiv.org/abs/2304.11277",
+            "kind": "reading"
+          },
+          {
+            "label": "LoRA: Low-Rank Adaptation of Large Language Models",
+            "url": "https://arxiv.org/abs/2106.09685",
+            "kind": "reading"
+          }
+        ],
+        "courseMaterialNote": "Suggested readings: Mixed Precision Training ZeRO: Memory Optimizations Toward Training Trillion Parameter Models PyTorch FSDP: Experiences on Scaling Fully Sharded Data Parallel LoRA: Low-Rank Adaptation of Large Language Models",
+        "eventText": "Final Project Proposals Returned Project Milestone out",
+        "eventResources": [
+          {
+            "label": "Project milestone handout",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/project/project-milestone-instructions-spr2024.pdf",
+            "kind": "slides"
+          }
+        ],
+        "deadline": "Assignment 4 due",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Tuesday, May 14, 2024",
+        "description": "Speech Brain-Computer Interface ( by Chaofei Fan )",
+        "lectureMaterials": [
+          {
+            "label": "Lecture slides",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture13-speech-bci.pdf",
+            "kind": "slides"
+          }
+        ],
+        "readings": [
+          {
+            "label": "A high-performance speech neuroprosthesis",
+            "url": "https://www.nature.com/articles/s41586-023-06377-x",
+            "kind": "reading"
+          },
+          {
+            "label": "An accurate and rapidly calibrating speech neuroprosthesis",
+            "url": "https://www.medrxiv.org/content/10.1101/2023.12.26.23300110v2",
+            "kind": "reading"
+          },
+          {
+            "label": "A high-performance neuroprosthesis for speech decoding and avatar control",
+            "url": "https://www.nature.com/articles/s41586-023-06443-4",
+            "kind": "reading"
+          },
+          {
+            "label": "Brain-Machine Interfaces (Principles of Neural Science chapter)",
+            "url": "https://users.ece.cmu.edu/~byronyu/papers/PNS-6thEdition-SectionV-Motor-Chapter39-BMIs.pdf",
+            "kind": "reading"
+          }
+        ],
+        "courseMaterialNote": "Suggested readings: A high-performance speech neuroprosthesis An accurate and rapidly calibrating speech neuroprosthesis A high-performance neuroprosthesis for speech decoding and avatar control Brain-Machine Interfaces (Principles of Neural Science chapter)",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Thursday, May 16, 2024",
+        "description": "Reasoning and Agents ( by Shikhar Murty )",
+        "lectureMaterials": [
+          {
+            "label": "Lecture slides",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture14-agents-shikhar-updated.pdf",
+            "kind": "slides"
+          }
+        ],
+        "readings": [
+          {
+            "label": "Orca: Progressive Learning from Complex Explanation Traces of GPT-4",
+            "url": "https://arxiv.org/abs/2306.02707",
+            "kind": "reading"
+          },
+          {
+            "label": "Least-to-Most Prompting Enables Complex Reasoning in Large Language Models",
+            "url": "https://arxiv.org/abs/2205.10625",
+            "kind": "reading"
+          },
+          {
+            "label": "ReAct: Synergizing Reasoning and Acting in Language Models",
+            "url": "https://arxiv.org/abs/2210.03629",
+            "kind": "reading"
+          },
+          {
+            "label": "BAGEL: Bootstrapping Agents by Guiding Exploration with Language",
+            "url": "https://arxiv.org/abs/2403.08140",
+            "kind": "reading"
+          },
+          {
+            "label": "WebArena: A Realistic Web Environment for Building Autonomous Agents",
+            "url": "https://arxiv.org/abs/2307.13854",
+            "kind": "reading"
+          },
+          {
+            "label": "Reasoning or Reciting? Exploring the Capabilities and Limitations of Language Models Through Counterfactual Tasks",
+            "url": "https://arxiv.org/abs/2307.02477",
+            "kind": "reading"
+          },
+          {
+            "label": "Response: Emergent analogical reasoning in large language models",
+            "url": "https://arxiv.org/abs/2308.16118",
+            "kind": "reading"
+          },
+          {
+            "label": "WebLINX: Real-World Website Navigation with Multi-Turn Dialogue",
+            "url": "https://arxiv.org/abs/2402.05930",
+            "kind": "reading"
+          }
+        ],
+        "courseMaterialNote": "Suggested readings: Orca: Progressive Learning from Complex Explanation Traces of GPT-4 Least-to-Most Prompting Enables Complex Reasoning in Large Language Models ReAct: Synergizing Reasoning and Acting in Language Models BAGEL: Bootstrapping Agents by Guiding Exploration with Language WebArena: A Realistic Web Environment for Building Autonomous Agents Additional Readings: Reasoning or Reciting? Exploring the Capabilities and Limitations of Language Models Through Counterfactual Tasks Response: Emergent analogical reasoning in large language models WebLINX: Real-World Website Navigation with Multi-Turn Dialogue",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Tuesday, May 21, 2024",
+        "description": "Life after DPO ( by Nathan Lambert )",
+        "lectureMaterials": [
+          {
+            "label": "Lecture slides",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture15-life-after-dpo-lambert.pdf",
+            "kind": "slides"
+          }
+        ],
+        "readings": [
+          {
+            "label": "RewardBench: Evaluating Reward Models for Language Modeling",
+            "url": "https://arxiv.org/abs/2403.13787",
+            "kind": "reading"
+          },
+          {
+            "label": "D2PO: Discriminator-Guided DPO with Response Evaluation Models",
+            "url": "https://arxiv.org/abs/2405.01511",
+            "kind": "reading"
+          },
+          {
+            "label": "Social Choice for AI Alignment: Dealing with Diverse Human Feedback",
+            "url": "https://arxiv.org/abs/2404.10271",
+            "kind": "reading"
+          }
+        ],
+        "courseMaterialNote": "Suggested readings: RewardBench: Evaluating Reward Models for Language Modeling D2PO: Discriminator-Guided DPO with Response Evaluation Models Social Choice for AI Alignment: Dealing with Diverse Human Feedback",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Thursday, May 23, 2024",
+        "description": "ConvNets, Tree Recursive Neural Networks and Constituency Parsing",
+        "lectureMaterials": [
+          {
+            "label": "Lecture slides",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture16-CNN-TreeRNN.pdf",
+            "kind": "slides"
+          }
+        ],
+        "readings": [
+          {
+            "label": "Convolutional Neural Networks for Sentence Classification",
+            "url": "https://arxiv.org/abs/1408.5882.pdf",
+            "kind": "reading"
+          },
+          {
+            "label": "Improving neural networks by preventing co-adaptation of feature detectors",
+            "url": "https://arxiv.org/abs/1207.0580",
+            "kind": "reading"
+          },
+          {
+            "label": "A Convolutional Neural Network for Modelling Sentences",
+            "url": "https://arxiv.org/pdf/1404.2188.pdf",
+            "kind": "reading"
+          },
+          {
+            "label": "Parsing with Compositional Vector Grammars.",
+            "url": "http://www.aclweb.org/anthology/P13-1045",
+            "kind": "reading"
+          },
+          {
+            "label": "Constituency Parsing with a Self-Attentive Encoder",
+            "url": "https://arxiv.org/pdf/1805.01052.pdf",
+            "kind": "reading"
+          }
+        ],
+        "courseMaterialNote": "Suggested readings (tentative): Convolutional Neural Networks for Sentence Classification Improving neural networks by preventing co-adaptation of feature detectors A Convolutional Neural Network for Modelling Sentences Parsing with Compositional Vector Grammars. Constituency Parsing with a Self-Attentive Encoder",
+        "eventText": "Final Project Report Instructions out",
+        "eventResources": [
+          {
+            "label": "Final project report instructions",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/project/CS224N_Spring_2024_Final_Project_Report_Instructions.pdf",
+            "kind": "slides"
+          }
+        ],
+        "deadline": "",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Tuesday, May 28, 2024",
+        "description": "An Introduction to Responsible NLP ( by Adina Williams )",
+        "lectureMaterials": [],
+        "readings": [
+          {
+            "label": "Preface + Introduction chapter of the FairML book by Solon Barocas, Moritz Hardt, Arvind Narayanan",
+            "url": "https://fairmlbook.org/pdf/fairmlbook.pdf",
+            "kind": "reading"
+          },
+          {
+            "label": "Introducing v0.5 of the AI Safety Benchmark from MLCommons",
+            "url": "https://arxiv.org/abs/2404.12241",
+            "kind": "reading"
+          }
+        ],
+        "courseMaterialNote": "Suggested readings: Preface + Introduction chapter of the FairML book by Solon Barocas, Moritz Hardt, Arvind Narayanan Introducing v0.5 of the AI Safety Benchmark from MLCommons",
+        "eventText": "Final Project Milestones Returned",
+        "eventResources": [],
+        "deadline": "",
+        "deadlineResources": []
+      },
+      {
+        "date": "Thursday, May 30, 2024",
+        "description": "NLP, linguistics, and philosophy",
+        "lectureMaterials": [
+          {
+            "label": "Lecture slides",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture18-nlp-linguistics-philosophy.pdf",
+            "kind": "slides"
+          }
+        ],
+        "readings": [],
+        "courseMaterialNote": "Suggested readings:",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Public playlist supplement",
+        "description": "This multimodal deep-learning lecture is a public-playlist supplement not listed as a separate Spring 2024 schedule row.",
+        "lectureMaterials": [],
+        "readings": [],
+        "courseMaterialNote": "",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Public playlist supplement",
+        "description": "This model interpretability and editing lecture is a public-playlist supplement not listed as a separate Spring 2024 schedule row.",
+        "lectureMaterials": [],
+        "readings": [],
+        "courseMaterialNote": "",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Friday, April 5, 2024",
+        "description": "Python Review Session",
+        "lectureMaterials": [
+          {
+            "label": "Lecture slides",
+            "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/readings/cs224n-python-review-2023.pdf",
+            "kind": "slides"
+          },
+          {
+            "label": "Colab notebook",
+            "url": "https://colab.research.google.com/drive/1hxWtr98jXqRDs_rZLZcEmX_hUcpDLq6e?usp=sharing",
+            "kind": "project"
+          }
+        ],
+        "readings": [],
+        "courseMaterialNote": "3:30pm - 4:20pm Gates B01",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Friday, April 12, 2024",
+        "description": "PyTorch Tutorial Session",
+        "lectureMaterials": [
+          {
+            "label": "Colab notebook",
+            "url": "https://colab.research.google.com/drive/1Pz8b_h-W9zIBk1p2e6v-YFYThG1NkYeS?usp=sharing",
+            "kind": "project"
+          }
+        ],
+        "readings": [],
+        "courseMaterialNote": "3:30pm - 4:20pm Gates B01",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "",
+        "deadlineResources": []
+      }
+    ],
+    [
+      {
+        "date": "Friday, May 3, 2024",
+        "description": "Hugging Face Transformers Tutorial Session",
+        "lectureMaterials": [
+          {
+            "label": "Colab notebook",
+            "url": "https://colab.research.google.com/drive/13r94i6Fh4oYf-eJRSi7S_y_cen5NYkBm#scrollTo=OTsW-Wwi-X81",
+            "kind": "project"
+          }
+        ],
+        "readings": [],
+        "courseMaterialNote": "3:30pm - 4:20pm Gates B03",
+        "eventText": "",
+        "eventResources": [],
+        "deadline": "Project Proposal due",
+        "deadlineResources": []
+      }
+    ]
+  ],
+  "lessonStudyMaterials": [
+    [
+      {
+        "type": "pdf",
+        "label": "Lecture slides",
+        "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture01-wordvecs1.pdf",
+        "sourceUrl": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture01-wordvecs1.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "Official CS224N lecture slides or notes listed for this class in the Spring 2024 schedule.",
+        "group": "Lecture materials"
+      },
+      {
+        "type": "pdf",
+        "label": "Lecture notes",
+        "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/readings/cs224n_winter2023_lecture1_notes_draft.pdf",
+        "sourceUrl": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/readings/cs224n_winter2023_lecture1_notes_draft.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "Official CS224N lecture slides or notes listed for this class in the Spring 2024 schedule.",
+        "group": "Lecture materials"
+      },
+      {
+        "type": "pdf",
+        "label": "Efficient Estimation of Word Representations in Vector Space",
+        "url": "https://arxiv.org/pdf/1301.3781.pdf",
+        "sourceUrl": "http://arxiv.org/pdf/1301.3781.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Distributed Representations of Words and Phrases and their Compositionality",
+        "url": "https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf",
+        "sourceUrl": "http://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      }
+    ],
+    [
+      {
+        "type": "pdf",
+        "label": "Lecture slides",
+        "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture02-wordvecs2.pdf",
+        "sourceUrl": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture02-wordvecs2.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "Official CS224N lecture slides or notes listed for this class in the Spring 2024 schedule.",
+        "group": "Lecture materials"
+      },
+      {
+        "type": "pdf",
+        "label": "Lecture notes",
+        "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/readings/cs224n-2019-notes02-wordvecs2.pdf",
+        "sourceUrl": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/readings/cs224n-2019-notes02-wordvecs2.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "Official CS224N lecture slides or notes listed for this class in the Spring 2024 schedule.",
+        "group": "Lecture materials"
+      },
+      {
+        "type": "pdf",
+        "label": "GloVe: Global Vectors for Word Representation",
+        "url": "https://nlp.stanford.edu/pubs/glove.pdf",
+        "sourceUrl": "http://nlp.stanford.edu/pubs/glove.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Improving Distributional Similarity with Lessons Learned from Word Embeddings",
+        "url": "https://aclanthology.org/Q15-1016.pdf",
+        "sourceUrl": "http://www.aclweb.org/anthology/Q15-1016",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Evaluation methods for unsupervised word embeddings",
+        "url": "https://aclanthology.org/D15-1036.pdf",
+        "sourceUrl": "http://www.aclweb.org/anthology/D15-1036",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "A Latent Variable Model Approach to PMI-based Word Embeddings",
+        "url": "https://aclanthology.org/Q16-1028.pdf",
+        "sourceUrl": "http://aclweb.org/anthology/Q16-1028",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Linear Algebraic Structure of Word Senses, with Applications to Polysemy",
+        "url": "https://transacl.org/ojs/index.php/tacl/article/viewFile/1346/320",
+        "sourceUrl": "https://transacl.org/ojs/index.php/tacl/article/viewFile/1346/320",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "On the Dimensionality of Word Embedding",
+        "url": "https://papers.nips.cc/paper/7368-on-the-dimensionality-of-word-embedding.pdf",
+        "sourceUrl": "https://papers.nips.cc/paper/7368-on-the-dimensionality-of-word-embedding.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      }
+    ],
+    [
+      {
+        "type": "pdf",
+        "label": "Lecture slides",
+        "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture03-neuralnets.pdf",
+        "sourceUrl": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture03-neuralnets.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "Official CS224N lecture slides or notes listed for this class in the Spring 2024 schedule.",
+        "group": "Lecture materials"
+      },
+      {
+        "type": "pdf",
+        "label": "Lecture notes",
+        "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/readings/cs224n-2019-notes03-neuralnets.pdf",
+        "sourceUrl": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/readings/cs224n-2019-notes03-neuralnets.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "Official CS224N lecture slides or notes listed for this class in the Spring 2024 schedule.",
+        "group": "Lecture materials"
+      },
+      {
+        "type": "pdf",
+        "label": "matrix calculus notes",
+        "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/readings/gradient-notes.pdf",
+        "sourceUrl": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/readings/gradient-notes.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Review of differential calculus",
+        "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/readings/review-differential-calculus.pdf",
+        "sourceUrl": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/readings/review-differential-calculus.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Derivatives, Backpropagation, and Vectorization",
+        "url": "https://cs231n.stanford.edu/handouts/derivatives.pdf",
+        "sourceUrl": "http://cs231n.stanford.edu/handouts/derivatives.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Learning Representations by Backpropagating Errors",
+        "url": "https://www.iro.umontreal.ca/~vincentp/ift3395/lectures/backprop_old.pdf",
+        "sourceUrl": "http://www.iro.umontreal.ca/~vincentp/ift3395/lectures/backprop_old.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Natural Language Processing (Almost) from Scratch",
+        "url": "https://www.jmlr.org/papers/volume12/collobert11a/collobert11a.pdf",
+        "sourceUrl": "http://www.jmlr.org/papers/volume12/collobert11a/collobert11a.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Assignment 2 handout",
+        "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/assignments/a2.pdf",
+        "sourceUrl": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/assignments/a2.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "An official CS224N assignment or project document released with this class.",
+        "group": "Assignments and project"
+      }
+    ],
+    [
+      {
+        "type": "pdf",
+        "label": "Lecture slides",
+        "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture04-dep-parsing.pdf",
+        "sourceUrl": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture04-dep-parsing.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "Official CS224N lecture slides or notes listed for this class in the Spring 2024 schedule.",
+        "group": "Lecture materials"
+      },
+      {
+        "type": "pdf",
+        "label": "Lecture notes",
+        "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/readings/cs224n-2019-notes04-dependencyparsing.pdf",
+        "sourceUrl": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/readings/cs224n-2019-notes04-dependencyparsing.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "Official CS224N lecture slides or notes listed for this class in the Spring 2024 schedule.",
+        "group": "Lecture materials"
+      },
+      {
+        "type": "pdf",
+        "label": "Incrementality in Deterministic Dependency Parsing",
+        "url": "https://www.aclweb.org/anthology/W/W04/W04-0308.pdf",
+        "sourceUrl": "https://www.aclweb.org/anthology/W/W04/W04-0308.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "A Fast and Accurate Dependency Parser using Neural Networks",
+        "url": "https://www.emnlp2014.org/papers/pdf/EMNLP2014082.pdf",
+        "sourceUrl": "https://www.emnlp2014.org/papers/pdf/EMNLP2014082.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Globally Normalized Transition-Based Neural Networks",
+        "url": "https://arxiv.org/pdf/1603.06042.pdf",
+        "sourceUrl": "https://arxiv.org/pdf/1603.06042.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Universal Stanford Dependencies: A cross-linguistic typology",
+        "url": "https://nlp.stanford.edu/~manning/papers/USD_LREC14_UD_revision.pdf",
+        "sourceUrl": "http://nlp.stanford.edu/~manning/papers/USD_LREC14_UD_revision.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Jurafsky & Martin Chapter 18",
+        "url": "https://web.stanford.edu/~jurafsky/slpdraft/18.pdf",
+        "sourceUrl": "https://web.stanford.edu/~jurafsky/slpdraft/18.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      }
+    ],
+    [
+      {
+        "type": "pdf",
+        "label": "Lecture slides",
+        "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture05-rnnlm.pdf",
+        "sourceUrl": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture05-rnnlm.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "Official CS224N lecture slides or notes listed for this class in the Spring 2024 schedule.",
+        "group": "Lecture materials"
+      },
+      {
+        "type": "pdf",
+        "label": "Lecture notes (Lectures 5 and 6)",
+        "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/readings/cs224n-2019-notes05-LM_RNN.pdf",
+        "sourceUrl": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/readings/cs224n-2019-notes05-LM_RNN.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "Official CS224N lecture slides or notes listed for this class in the Spring 2024 schedule.",
+        "group": "Lecture materials"
+      },
+      {
+        "type": "pdf",
+        "label": "N-gram Language Models",
+        "url": "https://web.stanford.edu/~jurafsky/slp3/3.pdf",
+        "sourceUrl": "https://web.stanford.edu/~jurafsky/slp3/3.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "On the difficulty of training Recurrent Neural Networks",
+        "url": "https://arxiv.org/pdf/1211.5063.pdf",
+        "sourceUrl": "https://arxiv.org/pdf/1211.5063.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      }
+    ],
+    [
+      {
+        "type": "pdf",
+        "label": "Lecture slides",
+        "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture06-fancy-rnn.pdf",
+        "sourceUrl": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture06-fancy-rnn.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "Official CS224N lecture slides or notes listed for this class in the Spring 2024 schedule.",
+        "group": "Lecture materials"
+      },
+      {
+        "type": "pdf",
+        "label": "Lecture notes (Lectures 5 and 6)",
+        "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/readings/cs224n-2019-notes05-LM_RNN.pdf",
+        "sourceUrl": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/readings/cs224n-2019-notes05-LM_RNN.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "Official CS224N lecture slides or notes listed for this class in the Spring 2024 schedule.",
+        "group": "Lecture materials"
+      },
+      {
+        "type": "pdf",
+        "label": "BLEU",
+        "url": "https://www.aclweb.org/anthology/P02-1040.pdf",
+        "sourceUrl": "https://www.aclweb.org/anthology/P02-1040.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Sequence to Sequence Learning with Neural Networks",
+        "url": "https://arxiv.org/pdf/1409.3215.pdf",
+        "sourceUrl": "https://arxiv.org/pdf/1409.3215.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Sequence Transduction with Recurrent Neural Networks",
+        "url": "https://arxiv.org/pdf/1211.3711.pdf",
+        "sourceUrl": "https://arxiv.org/pdf/1211.3711.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Neural Machine Translation by Jointly Learning to Align and Translate",
+        "url": "https://arxiv.org/pdf/1409.0473.pdf",
+        "sourceUrl": "https://arxiv.org/pdf/1409.0473.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Massive Exploration of Neural Machine Translation Architectures",
+        "url": "https://arxiv.org/pdf/1703.03906.pdf",
+        "sourceUrl": "https://arxiv.org/pdf/1703.03906.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Achieving Open Vocabulary Neural Machine Translation with Hybrid Word-Character Models",
+        "url": "https://arxiv.org/abs/1604.00788.pdf",
+        "sourceUrl": "https://arxiv.org/abs/1604.00788.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Revisiting Character-Based Neural Machine Translation with Capacity and Compression",
+        "url": "https://arxiv.org/pdf/1808.09943.pdf",
+        "sourceUrl": "https://arxiv.org/pdf/1808.09943.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Assignment 3 handout",
+        "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/assignments/a3_spr24_student_handout.pdf",
+        "sourceUrl": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/assignments/a3_spr24_student_handout.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "An official CS224N assignment or project document released with this class.",
+        "group": "Assignments and project"
+      }
+    ],
+    [
+      {
+        "type": "pdf",
+        "label": "Lecture slides",
+        "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture07-final-project.pdf",
+        "sourceUrl": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture07-final-project.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "Official CS224N lecture slides or notes listed for this class in the Spring 2024 schedule.",
+        "group": "Lecture materials"
+      },
+      {
+        "type": "pdf",
+        "label": "Project proposal handout",
+        "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/project/project-proposal-instructions-spr2024-updated.pdf",
+        "sourceUrl": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/project/project-proposal-instructions-spr2024-updated.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "An official CS224N assignment or project document released with this class.",
+        "group": "Assignments and project"
+      },
+      {
+        "type": "pdf",
+        "label": "Default final project handout",
+        "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/project/default-final-project-handout-minbert-spr2024-updated.pdf",
+        "sourceUrl": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/project/default-final-project-handout-minbert-spr2024-updated.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "An official CS224N assignment or project document released with this class.",
+        "group": "Assignments and project"
+      }
+    ],
+    [
+      {
+        "type": "pdf",
+        "label": "Lecture slides",
+        "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture08-transformers.pdf",
+        "sourceUrl": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture08-transformers.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "Official CS224N lecture slides or notes listed for this class in the Spring 2024 schedule.",
+        "group": "Lecture materials"
+      },
+      {
+        "type": "pdf",
+        "label": "Lecture notes",
+        "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/readings/cs224n-self-attention-transformers-2023_draft.pdf",
+        "sourceUrl": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/readings/cs224n-self-attention-transformers-2023_draft.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "Official CS224N lecture slides or notes listed for this class in the Spring 2024 schedule.",
+        "group": "Lecture materials"
+      },
+      {
+        "type": "pdf",
+        "label": "Attention Is All You Need",
+        "url": "https://arxiv.org/abs/1706.03762.pdf",
+        "sourceUrl": "https://arxiv.org/abs/1706.03762.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Layer Normalization",
+        "url": "https://arxiv.org/pdf/1607.06450.pdf",
+        "sourceUrl": "https://arxiv.org/pdf/1607.06450.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Image Transformer",
+        "url": "https://arxiv.org/pdf/1802.05751.pdf",
+        "sourceUrl": "https://arxiv.org/pdf/1802.05751.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Music Transformer: Generating music with long-term structure",
+        "url": "https://arxiv.org/pdf/1809.04281.pdf",
+        "sourceUrl": "https://arxiv.org/pdf/1809.04281.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Jurafsky and Martin Chapter 10 (Transformers and Large Language Models)",
+        "url": "https://web.stanford.edu/~jurafsky/slpdraft/10.pdf",
+        "sourceUrl": "https://web.stanford.edu/~jurafsky/slpdraft/10.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      }
+    ],
+    [
+      {
+        "type": "pdf",
+        "label": "Lecture slides",
+        "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture09-pretraining-updated.pdf",
+        "sourceUrl": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture09-pretraining-updated.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "Official CS224N lecture slides or notes listed for this class in the Spring 2024 schedule.",
+        "group": "Lecture materials"
+      },
+      {
+        "type": "pdf",
+        "label": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+        "url": "https://arxiv.org/pdf/1810.04805.pdf",
+        "sourceUrl": "https://arxiv.org/pdf/1810.04805.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Contextual Word Representations: A Contextual Introduction",
+        "url": "https://arxiv.org/abs/1902.06006.pdf",
+        "sourceUrl": "https://arxiv.org/abs/1902.06006.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Jurafsky and Martin Chapter 11 (Fine-Tuning and Masked Language Models)",
+        "url": "https://web.stanford.edu/~jurafsky/slpdraft/11.pdf",
+        "sourceUrl": "https://web.stanford.edu/~jurafsky/slpdraft/11.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Assignment 4 handout",
+        "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/assignments/a4_spr24_student_handout.pdf",
+        "sourceUrl": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/assignments/a4_spr24_student_handout.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "An official CS224N assignment or project document released with this class.",
+        "group": "Assignments and project"
+      }
+    ],
+    [],
+    [
+      {
+        "type": "pdf",
+        "label": "Lecture slides",
+        "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture10-prompting-rlhf.pdf",
+        "sourceUrl": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture10-prompting-rlhf.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "Official CS224N lecture slides or notes listed for this class in the Spring 2024 schedule.",
+        "group": "Lecture materials"
+      },
+      {
+        "type": "pdf",
+        "label": "Scaling Instruction-Finetuned Language Models",
+        "url": "https://arxiv.org/pdf/2210.11416.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2210.11416",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "AlpacaFarm: A Simulation Framework for Methods that Learn from Human Feedback",
+        "url": "https://arxiv.org/pdf/2305.14387.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2305.14387",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "How Far Can Camels Go? Exploring the State of Instruction Tuning on Open Resources",
+        "url": "https://arxiv.org/pdf/2306.04751.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2306.04751",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+        "url": "https://arxiv.org/pdf/2305.18290.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2305.18290",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      }
+    ],
+    [
+      {
+        "type": "pdf",
+        "label": "Lecture slides",
+        "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture11-evaluation-yann.pdf",
+        "sourceUrl": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture11-evaluation-yann.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "Official CS224N lecture slides or notes listed for this class in the Spring 2024 schedule.",
+        "group": "Lecture materials"
+      },
+      {
+        "type": "pdf",
+        "label": "Measuring Massive Multitask Language Understanding",
+        "url": "https://arxiv.org/pdf/2009.03300.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2009.03300",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Holistic Evaluation of Language Models",
+        "url": "https://arxiv.org/pdf/2211.09110.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2211.09110",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      }
+    ],
+    [
+      {
+        "type": "pdf",
+        "label": "Lecture slides",
+        "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture12-training-shikhar.pdf",
+        "sourceUrl": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture12-training-shikhar.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "Official CS224N lecture slides or notes listed for this class in the Spring 2024 schedule.",
+        "group": "Lecture materials"
+      },
+      {
+        "type": "pdf",
+        "label": "Mixed Precision Training",
+        "url": "https://arxiv.org/pdf/1710.03740.pdf",
+        "sourceUrl": "https://arxiv.org/abs/1710.03740",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "ZeRO: Memory Optimizations Toward Training Trillion Parameter Models",
+        "url": "https://arxiv.org/pdf/1910.02054.pdf",
+        "sourceUrl": "https://arxiv.org/abs/1910.02054",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "PyTorch FSDP: Experiences on Scaling Fully Sharded Data Parallel",
+        "url": "https://arxiv.org/pdf/2304.11277.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2304.11277",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "LoRA: Low-Rank Adaptation of Large Language Models",
+        "url": "https://arxiv.org/pdf/2106.09685.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2106.09685",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Project milestone handout",
+        "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/project/project-milestone-instructions-spr2024.pdf",
+        "sourceUrl": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/project/project-milestone-instructions-spr2024.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "An official CS224N assignment or project document released with this class.",
+        "group": "Assignments and project"
+      }
+    ],
+    [
+      {
+        "type": "pdf",
+        "label": "Lecture slides",
+        "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture13-speech-bci.pdf",
+        "sourceUrl": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture13-speech-bci.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "Official CS224N lecture slides or notes listed for this class in the Spring 2024 schedule.",
+        "group": "Lecture materials"
+      },
+      {
+        "type": "pdf",
+        "label": "Brain-Machine Interfaces (Principles of Neural Science chapter)",
+        "url": "https://users.ece.cmu.edu/~byronyu/papers/PNS-6thEdition-SectionV-Motor-Chapter39-BMIs.pdf",
+        "sourceUrl": "https://users.ece.cmu.edu/~byronyu/papers/PNS-6thEdition-SectionV-Motor-Chapter39-BMIs.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      }
+    ],
+    [
+      {
+        "type": "pdf",
+        "label": "Lecture slides",
+        "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture14-agents-shikhar-updated.pdf",
+        "sourceUrl": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture14-agents-shikhar-updated.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "Official CS224N lecture slides or notes listed for this class in the Spring 2024 schedule.",
+        "group": "Lecture materials"
+      },
+      {
+        "type": "pdf",
+        "label": "Orca: Progressive Learning from Complex Explanation Traces of GPT-4",
+        "url": "https://arxiv.org/pdf/2306.02707.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2306.02707",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Least-to-Most Prompting Enables Complex Reasoning in Large Language Models",
+        "url": "https://arxiv.org/pdf/2205.10625.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2205.10625",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "ReAct: Synergizing Reasoning and Acting in Language Models",
+        "url": "https://arxiv.org/pdf/2210.03629.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2210.03629",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "BAGEL: Bootstrapping Agents by Guiding Exploration with Language",
+        "url": "https://arxiv.org/pdf/2403.08140.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2403.08140",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "WebArena: A Realistic Web Environment for Building Autonomous Agents",
+        "url": "https://arxiv.org/pdf/2307.13854.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2307.13854",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Reasoning or Reciting? Exploring the Capabilities and Limitations of Language Models Through Counterfactual Tasks",
+        "url": "https://arxiv.org/pdf/2307.02477.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2307.02477",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Response: Emergent analogical reasoning in large language models",
+        "url": "https://arxiv.org/pdf/2308.16118.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2308.16118",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "WebLINX: Real-World Website Navigation with Multi-Turn Dialogue",
+        "url": "https://arxiv.org/pdf/2402.05930.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2402.05930",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      }
+    ],
+    [
+      {
+        "type": "pdf",
+        "label": "Lecture slides",
+        "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture15-life-after-dpo-lambert.pdf",
+        "sourceUrl": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture15-life-after-dpo-lambert.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "Official CS224N lecture slides or notes listed for this class in the Spring 2024 schedule.",
+        "group": "Lecture materials"
+      },
+      {
+        "type": "pdf",
+        "label": "RewardBench: Evaluating Reward Models for Language Modeling",
+        "url": "https://arxiv.org/pdf/2403.13787.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2403.13787",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "D2PO: Discriminator-Guided DPO with Response Evaluation Models",
+        "url": "https://arxiv.org/pdf/2405.01511.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2405.01511",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Social Choice for AI Alignment: Dealing with Diverse Human Feedback",
+        "url": "https://arxiv.org/pdf/2404.10271.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2404.10271",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      }
+    ],
+    [
+      {
+        "type": "pdf",
+        "label": "Lecture slides",
+        "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture16-CNN-TreeRNN.pdf",
+        "sourceUrl": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture16-CNN-TreeRNN.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "Official CS224N lecture slides or notes listed for this class in the Spring 2024 schedule.",
+        "group": "Lecture materials"
+      },
+      {
+        "type": "pdf",
+        "label": "Convolutional Neural Networks for Sentence Classification",
+        "url": "https://arxiv.org/abs/1408.5882.pdf",
+        "sourceUrl": "https://arxiv.org/abs/1408.5882.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Improving neural networks by preventing co-adaptation of feature detectors",
+        "url": "https://arxiv.org/pdf/1207.0580.pdf",
+        "sourceUrl": "https://arxiv.org/abs/1207.0580",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "A Convolutional Neural Network for Modelling Sentences",
+        "url": "https://arxiv.org/pdf/1404.2188.pdf",
+        "sourceUrl": "https://arxiv.org/pdf/1404.2188.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Parsing with Compositional Vector Grammars.",
+        "url": "https://aclanthology.org/P13-1045.pdf",
+        "sourceUrl": "http://www.aclweb.org/anthology/P13-1045",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Constituency Parsing with a Self-Attentive Encoder",
+        "url": "https://arxiv.org/pdf/1805.01052.pdf",
+        "sourceUrl": "https://arxiv.org/pdf/1805.01052.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Final project report instructions",
+        "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/project/CS224N_Spring_2024_Final_Project_Report_Instructions.pdf",
+        "sourceUrl": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/project/CS224N_Spring_2024_Final_Project_Report_Instructions.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "An official CS224N assignment or project document released with this class.",
+        "group": "Assignments and project"
+      }
+    ],
+    [
+      {
+        "type": "pdf",
+        "label": "Preface + Introduction chapter of the FairML book by Solon Barocas, Moritz Hardt, Arvind Narayanan",
+        "url": "https://fairmlbook.org/pdf/fairmlbook.pdf",
+        "sourceUrl": "https://fairmlbook.org/pdf/fairmlbook.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Introducing v0.5 of the AI Safety Benchmark from MLCommons",
+        "url": "https://arxiv.org/pdf/2404.12241.pdf",
+        "sourceUrl": "https://arxiv.org/abs/2404.12241",
+        "sourceLabel": "Open original resource ↗",
+        "description": "A PDF from the official CS224N suggested-reading list for this class.",
+        "group": "Suggested readings"
+      },
+      {
+        "type": "pdf",
+        "label": "Lecture slides",
+        "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture18-nlp-linguistics-philosophy.pdf",
+        "sourceUrl": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/slides/cs224n-spr2024-lecture18-nlp-linguistics-philosophy.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "Official CS224N lecture slides or notes listed for this class in the Spring 2024 schedule.",
+        "group": "Lecture materials"
+      }
+    ],
+    [],
+    [],
+    [
+      {
+        "type": "pdf",
+        "label": "Lecture slides",
+        "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/readings/cs224n-python-review-2023.pdf",
+        "sourceUrl": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/readings/cs224n-python-review-2023.pdf",
+        "sourceLabel": "Open original resource ↗",
+        "description": "Official CS224N lecture slides or notes listed for this class in the Spring 2024 schedule.",
+        "group": "Lecture materials"
+      }
+    ],
+    [],
+    []
+  ],
+  "courseExtras": [
+    {
+      "date": "Wednesday, May 22, 2024",
+      "description": "",
+      "lectureMaterials": [],
+      "readings": [],
+      "courseMaterialNote": "",
+      "eventText": "",
+      "eventResources": [],
+      "deadline": "Final Project Milestone due",
+      "deadlineResources": []
+    },
+    {
+      "date": "Friday, May 24, 2024",
+      "description": "",
+      "lectureMaterials": [],
+      "readings": [],
+      "courseMaterialNote": "",
+      "eventText": "",
+      "eventResources": [],
+      "deadline": "Course Withdrawal Deadline",
+      "deadlineResources": []
+    },
+    {
+      "date": "Tue June 4",
+      "description": "Final Project Emergency Assistance (no lecture)",
+      "lectureMaterials": [],
+      "readings": [],
+      "courseMaterialNote": "Extra project office hours available during usual lecture time, see Ed.",
+      "eventText": "",
+      "eventResources": [],
+      "deadline": "",
+      "deadlineResources": []
+    },
+    {
+      "date": "Thu June 6",
+      "description": "No class",
+      "lectureMaterials": [],
+      "readings": [],
+      "courseMaterialNote": "",
+      "eventText": "",
+      "eventResources": [],
+      "deadline": "Final project due",
+      "deadlineResources": []
+    },
+    {
+      "date": "Mon June 10",
+      "description": "Final Project Poster Session",
+      "lectureMaterials": [],
+      "readings": [
+        {
+          "label": "More details",
+          "url": "https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1246/project.html",
+          "kind": "reading"
+        },
+        {
+          "label": "McCaw Hall and Ford Gardens",
+          "url": "https://maps.app.goo.gl/MYgtYPLv61NKsj3G6",
+          "kind": "reading"
+        }
+      ],
+      "courseMaterialNote": "11 am - 3 pm Location: McCaw Hall and Ford Gardens On-campus students must attend in person!",
+      "eventText": "",
+      "eventResources": [],
+      "deadline": "",
+      "deadlineResources": [
+        {
+          "label": "Printing guide",
+          "url": "https://docs.google.com/document/d/1J8-TVVvndimSwq3jGzpMO_OtPAx_EaU9nUiiPUQdVpY",
+          "kind": "course"
+        }
+      ]
+    }
+  ]
+}
